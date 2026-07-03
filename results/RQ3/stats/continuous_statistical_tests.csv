@@ -1,0 +1,13 @@
+metric,test,comparison,statistic,p_value,p_formatted,significant,effect_size,interpretation,n1,n2,median1,median2
+compliance_score,Kruskal-Wallis,All languages,9.996,0.006751087122058465,0.0068,True,N/A,Overall difference detected,,,,
+compliance_score,Mann-Whitney U,C++ vs Java,,0.07688122687098234,0.0769,False,-0.156,small,83.0,79.0,0.7179,0.7179
+compliance_score,Mann-Whitney U,C++ vs Python,,0.3519457386639211,0.3519,False,0.068,negligible,83.0,220.0,0.7179,0.7179
+compliance_score,Mann-Whitney U,Java vs Python,,0.0013622137278957395,0.0014,True,0.238,small,79.0,220.0,0.7179,0.7179
+total_violations,Kruskal-Wallis,All languages,12.323,0.0021094052467672017,0.0021,True,N/A,Overall difference detected,,,,
+total_violations,Mann-Whitney U,C++ vs Java,,0.05369654770229803,0.0537,False,0.167,small,83.0,79.0,3.0,3.0
+total_violations,Mann-Whitney U,C++ vs Python,,0.2820554596918605,0.2821,False,-0.077,negligible,83.0,220.0,3.0,3.0
+total_violations,Mann-Whitney U,Java vs Python,,0.0003833733535440585,0.0004,True,-0.258,small,79.0,220.0,3.0,3.0
+weighted_severity,Kruskal-Wallis,All languages,9.996,0.006751087122058465,0.0068,True,N/A,Overall difference detected,,,,
+weighted_severity,Mann-Whitney U,C++ vs Java,,0.07688122687098234,0.0769,False,0.156,small,83.0,79.0,11.0,11.0
+weighted_severity,Mann-Whitney U,C++ vs Python,,0.3519457386639211,0.3519,False,-0.068,negligible,83.0,220.0,11.0,11.0
+weighted_severity,Mann-Whitney U,Java vs Python,,0.0013622137278957395,0.0014,True,-0.238,small,79.0,220.0,11.0,11.0

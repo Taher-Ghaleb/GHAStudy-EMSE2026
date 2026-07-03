@@ -1,0 +1,15 @@
+====================================================================================================
+RQ1: COMPREHENSIVE GITHUB ACTIONS WORKFLOW COMPLEXITY ANALYSIS
+Generated: 2026-07-03 01:45:40
+====================================================================================================
+
+workflow_content: stored separately in workflow_content.csv
+  Join on: full_path
+
+INTERPRETATION: value-threshold 70/80/90 pct bands
+  low <= P70 | moderate P70-P80 | high P80-P90 | very high > P90
+
+Total workflows: 27,759
+  C++     : 6,687 (24.1%)
+  Java    : 5,733 (20.7%)
+  Python  : 15,339 (55.3%)

@@ -1,0 +1,11 @@
+﻿rank,rule_id,rule_name,category,severity,violations,total_checked,prevalence_pct,risk_score,justifiable_conditions
+1,SEC-02,Missing Permissions Block,Security,5,290,382,75.9,3.795,Partially justifiable if repo has default read-only token setting enforced at org level
+2,REL-01,Missing Job Timeout,Reliability,3,366,382,95.8,2.874,Partially justifiable for very long but expected builds (e.g. full C++ compilation suites)
+3,VER-01,Mutable Runner Label,Versioning,3,285,382,74.6,2.238,Justifiable if workflow does not depend on specific system library or tool versions
+4,EFF-01,No Dependency Caching,Efficiency,3,114,382,29.8,0.894,Justifiable for workflows that intentionally test fresh installs or audit dependency resolution
+5,SEC-03,Third-Party Action Pinned to Branch,Security,5,42,382,11.0,0.55,Never justifiable in production workflows
+6,MAINT-01,Duplicated Workflow Logic,Maintainability,3,51,382,13.4,0.402,Partially justifiable if workflows diverge intentionally across environments
+7,SEC-01,Secret Interpolation in Run Steps,Security,5,20,382,5.2,0.26,Never justifiable — always an injection/exposure risk
+8,EFF-02,Static or Missing Cache Key,Efficiency,3,21,382,5.5,0.165,Not justifiable — static keys silently serve stale dependencies
+9,REL-02,Silent Failure Masking via continue-on-error,Reliability,4,12,382,3.1,0.124,"Justifiable only on optional/informational steps (e.g. coverage upload, notification steps)"
+10,WA-01,Privileged Trigger Exposing Secrets to Fork Code,Workflow Activator,5,0,382,0.0,0.0,Justifiable only for labelling/commenting workflows that explicitly need write access and are fully hardened

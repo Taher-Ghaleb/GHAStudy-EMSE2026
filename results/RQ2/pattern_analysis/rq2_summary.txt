@@ -1,0 +1,374 @@
+
+=================================================================
+RQ2 Overall Summary
+=================================================================
+  total_workflows                              365
+  avg_sequence_length                          5.81
+  median_sequence_length                       5.0
+  pct_has_checkout                             91.51
+  pct_has_setup                                66.85
+  pct_has_build                                57.53
+  pct_has_test                                 24.93
+  avg_completeness_score                       0.602
+  pct_starts_with_checkout                     84.11
+  non_checkout_first_count                     58
+  pct_push                                     72.33
+  pct_pull_request                             60.0
+  pct_schedule                                 20.55
+  pct_workflow_dispatch                        27.4
+  pct_uses_cache                               12.88
+  pct_reusable_workflows                       2.47
+  pct_composite_actions                        0.27
+  pct_any_sha_pinned                           3.56
+  pct_any_tag_pinned                           96.16
+  pct_any_unpinned                             1.64
+  common_constructs_count                      21
+  common_full_sequences_count                  1
+
+=================================================================
+Common Step Constructs (>=5% of 365 workflows)
+=================================================================
+  Checkout Repository                                  334  (91.5%)
+  Setup Runtime Environment                            218  (59.7%)
+  Build Project                                        164  (44.9%)
+  Install Project Dependencies                         158  (43.3%)
+  Upload Build Artifacts                                99  (27.1%)
+  Execute Tests                                         91  (24.9%)
+  Run Static Analysis                                   50  (13.7%)
+  Manage Build Cache                                    47  (12.9%)
+  Setup Build Environment                               43  (11.8%)
+  Download Build Artifacts                              36  (9.9%)
+  Configure Build Profile                               35  (9.6%)
+  Perform Security Analysis                             30  (8.2%)
+  Initialize Security Analysis                          29  (8.0%)
+  Build Source Code                                     28  (7.7%)
+  Configure Cloud Resources                             28  (7.7%)
+  Publish Package                                       27  (7.4%)
+  Publish Release                                       27  (7.4%)
+  Export Environment Configuration                      26  (7.1%)
+  Generate Version Metadata                             25  (6.8%)
+  Generate Test Coverage                                23  (6.3%)
+  Build Package                                         19  (5.2%)
+
+=================================================================
+Top-10 Full Sequences — GLOBAL (all languages)
+=================================================================
+  (* = meets >=5% threshold)
+
+  #1  * [  19 |   5.2%]  len=4
+       Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis
+
+  #2    [   8 |   2.2%]  len=3
+       Checkout Repository → Setup Runtime Environment → Build Project
+
+  #3    [   6 |   1.6%]  len=1
+       Manage Workflow Automation
+
+  #4    [   6 |   1.6%]  len=4
+       Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests
+
+  #5    [   4 |   1.1%]  len=5
+       Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts
+
+  #6    [   4 |   1.1%]  len=4
+       Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis
+
+  #7    [   4 |   1.1%]  len=5
+       Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests
+
+  #8    [   3 |   0.8%]  len=4
+       Checkout Repository → Configure Cloud Resources → Generate Version Metadata → Build Project
+
+  #9    [   3 |   0.8%]  len=5
+       Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Package → Publish Package
+
+  #10   [   3 |   0.8%]  len=3
+       Checkout Repository → Initialize Security Analysis → Perform Security Analysis
+
+
+=================================================================
+Full Sequences Meeting >=5% — GLOBAL
+=================================================================
+  [19 | 5.2%]  Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis
+
+=================================================================
+Top-10 Sequences Per Language
+=================================================================
+
+  ── C++  (n=79, >=5% patterns: 0) ──
+    (* = meets >=5% threshold for this language)
+
+    #1    [   2 |   2.5%]  len=1
+         DenverCoder1/doxygen-github-pages-action
+
+    #2    [   1 |   1.3%]  len=7
+         Checkout Repository → Setup Runtime Environment → Free Disk Space (Ubuntu) → Build Project → Install CUDA ${{ matrix.cuda-version }} → Publish Conda package on organization channel → Publish Conda package on personal channel
+
+    #3    [   1 |   1.3%]  len=16
+         fkirc/skip-duplicate-actions → Checkout Repository → Set Variables → Manage Build Cache → Setup Runtime Environment → Install Project Dependencies → Build Firmware → Configure Build Profile → Clean Project Artifacts → Add Web UI to update → Add Demo mode files to update → Upload Build Artifacts → Add Web UI to remote_setup → drewg13/get-version-action → Publish Release → Deploy Application
+
+    #4    [   1 |   1.3%]  len=1
+         Manage Workflow Automation
+
+    #5    [   1 |   1.3%]  len=6
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Upload Build Artifacts → Build Project → Download Build Artifacts
+
+    #6    [   1 |   1.3%]  len=17
+         Checkout Repository → Setup Build Environment → Setup Runtime Environment → pip install -r support/python/requirements.txt → Run Static Analysis → ./.Github/Actions/Setup Tools Shared → ./.Github/Actions/Generate Offset Run Number → Manage Build Cache → Build Project → Build Source Code → Configure Build Profile → Execute Tests → ./.Github/Actions/Upload Esmini Artifacts → Run schema validation → Download Build Artifacts → Determine Version → Publish Release
+
+    #7    [   1 |   1.3%]  len=8
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project → ldconfig → Build Source Code → Run Static Analysis → Ros-Industrial/Industrial Ci
+
+    #8    [   1 |   1.3%]  len=17
+         Checkout Repository → Configure Build Profile → Inspect Runtime Environment → Build Source Code → Manage Build Cache → Setup Build Environment → Log Toolkit Message → Prepare Build Artifacts → Upload Build Artifacts → Download Build Artifacts → Inspect Repository State → Log Workflow Message → Install Project Dependencies → Check installation → Configure Documentation → Build Documentation → Clean Project Artifacts
+
+    #9    [   1 |   1.3%]  len=4
+         Checkout Repository → Manage Build Cache → Setup Runtime Environment → Build Project
+
+    #10   [   1 |   1.3%]  len=10
+         Checkout Repository → Setup Runtime Environment → Restore Godot build cache → Publish Release → Extract pre-built Android Swappy Frame Pacing Library → Compilation → Save Godot build cache → Generate Godot templates → Generate Godot editor → Upload Build Artifacts
+
+
+  ── JAVA  (n=72, >=5% patterns: 1) ──
+    (* = meets >=5% threshold for this language)
+
+    #1  * [   7 |   9.7%]  len=3
+         Checkout Repository → Setup Runtime Environment → Build Project
+
+    #2    [   2 |   2.8%]  len=4
+         Checkout Repository → Setup Runtime Environment → Manage Build Cache → Build Project
+
+    #3    [   2 |   2.8%]  len=4
+         Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis
+
+    #4    [   2 |   2.8%]  len=1
+         Execute Automation Script
+
+    #5    [   1 |   1.4%]  len=5
+         Checkout Repository → Download Build Artifacts → Setup Runtime Environment → Build Project → Execute Tests
+
+    #6    [   1 |   1.4%]  len=9
+         Checkout Repository → Configure Build Profile → Setup Runtime Environment → Configure Secure Access → Publish Package → Build Project → Generate Version Metadata → Split Artifacts → Upload Build Artifacts
+
+    #7    [   1 |   1.4%]  len=13
+         Checkout Repository → Setup Build Environment → Generate Version Metadata → Add commit hash to artifact → Build Source Code → Build Container Image → Download External Resources → Execute Tests → Build Project → Configure Build Profile → Publish Artifacts → Configure Cloud Resources → Upload Build Artifacts
+
+    #8    [   1 |   1.4%]  len=4
+         Checkout Repository → Setup Runtime Environment → Build Project → Manage Build Cache
+
+    #9    [   1 |   1.4%]  len=9
+         Checkout Repository → Verify Build Integrity → Setup Runtime Environment → Generate Version Metadata → Execute Tests → Upload Build Artifacts → Run Plugin Verification tasks → Clean Project Artifacts → Publish Release
+
+    #10   [   1 |   1.4%]  len=4
+         Checkout Repository → Setup Runtime Environment → Build Project → Sonar Scan
+
+
+  ── PYTHON  (n=214, >=5% patterns: 1) ──
+    (* = meets >=5% threshold for this language)
+
+    #1  * [  17 |   7.9%]  len=4
+         Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis
+
+    #2    [   6 |   2.8%]  len=4
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests
+
+    #3    [   4 |   1.9%]  len=5
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests
+
+    #4    [   4 |   1.9%]  len=4
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis
+
+    #5    [   4 |   1.9%]  len=1
+         Manage Workflow Automation
+
+    #6    [   3 |   1.4%]  len=3
+         Checkout Repository → Initialize Security Analysis → Perform Security Analysis
+
+    #7    [   3 |   1.4%]  len=5
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Package → Publish Package
+
+    #8    [   3 |   1.4%]  len=5
+         Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts
+
+    #9    [   2 |   0.9%]  len=1
+         Publish Release
+
+    #10   [   2 |   0.9%]  len=4
+         Checkout Repository → Configure Cloud Resources → Generate Version Metadata → Build Project
+
+
+=================================================================
+Top-20 Step Transitions (globally)
+=================================================================
+  Checkout Repository                        -> Setup Runtime Environment                     161  (9.16%)
+  Setup Runtime Environment                  -> Install Project Dependencies                   98  (5.58%)
+  Setup Runtime Environment                  -> Build Project                                  30  (1.71%)
+  Build Project                              -> Perform Security Analysis                      25  (1.42%)
+  Checkout Repository                        -> Initialize Security Analysis                   23  (1.31%)
+  Install Project Dependencies               -> Build Project                                  23  (1.31%)
+  Checkout Repository                        -> Install Project Dependencies                   22  (1.25%)
+  Initialize Security Analysis               -> Build Project                                  22  (1.25%)
+  Install Project Dependencies               -> Run Static Analysis                            22  (1.25%)
+  Build Project                              -> Upload Build Artifacts                         20  (1.14%)
+  Install Project Dependencies               -> Execute Tests                                  20  (1.14%)
+  Upload Build Artifacts                     -> Download Build Artifacts                       16  (0.91%)
+  Checkout Repository                        -> Setup Build Environment                        15  (0.85%)
+  Build Project                              -> Execute Tests                                  14  (0.80%)
+  Setup Runtime Environment                  -> Manage Build Cache                             14  (0.80%)
+  Checkout Repository                        -> Build Project                                  11  (0.63%)
+  Run Static Analysis                        -> Execute Tests                                  11  (0.63%)
+  Manage Build Cache                         -> Build Project                                  10  (0.57%)
+  Setup Build Environment                    -> Build Project                                   9  (0.51%)
+  Checkout Repository                        -> Generate Version Metadata                       8  (0.46%)
+
+=================================================================
+Top-20 Co-occurring Construct Pairs (globally)
+=================================================================
+  Checkout Repository                        + Setup Runtime Environment                     218  (59.7%)
+  Build Project                              + Checkout Repository                           164  (44.9%)
+  Checkout Repository                        + Install Project Dependencies                  158  (43.3%)
+  Install Project Dependencies               + Setup Runtime Environment                     128  (35.1%)
+  Build Project                              + Setup Runtime Environment                     104  (28.5%)
+  Checkout Repository                        + Upload Build Artifacts                         99  (27.1%)
+  Checkout Repository                        + Execute Tests                                  90  (24.7%)
+  Setup Runtime Environment                  + Upload Build Artifacts                         75  (20.6%)
+  Execute Tests                              + Setup Runtime Environment                      72  (19.7%)
+  Build Project                              + Install Project Dependencies                   58  (15.9%)
+  Execute Tests                              + Install Project Dependencies                   57  (15.6%)
+  Build Project                              + Upload Build Artifacts                         52  (14.2%)
+  Install Project Dependencies               + Upload Build Artifacts                         51  (14.0%)
+  Checkout Repository                        + Run Static Analysis                            49  (13.4%)
+  Checkout Repository                        + Manage Build Cache                             47  (12.9%)
+  Run Static Analysis                        + Setup Runtime Environment                      45  (12.3%)
+  Checkout Repository                        + Setup Build Environment                        43  (11.8%)
+  Manage Build Cache                         + Setup Runtime Environment                      38  (10.4%)
+  Install Project Dependencies               + Run Static Analysis                            36  (9.9%)
+  Checkout Repository                        + Download Build Artifacts                       35  (9.6%)
+
+=================================================================
+Most Common Sequence Prefixes (global, length 2-4)
+=================================================================
+
+  2-step prefixes:
+    [ 153 |  41.9%]  Checkout Repository → Setup Runtime Environment
+    [  23 |   6.3%]  Checkout Repository → Initialize Security Analysis
+    [  19 |   5.2%]  Checkout Repository → Install Project Dependencies
+    [  14 |   3.8%]  Checkout Repository → Setup Build Environment
+    [   9 |   2.5%]  Checkout Repository → Build Project
+
+  3-step prefixes:
+    [  83 |  22.7%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies
+    [  19 |   5.2%]  Checkout Repository → Initialize Security Analysis → Build Project
+    [  19 |   5.2%]  Checkout Repository → Setup Runtime Environment → Build Project
+    [  11 |   3.0%]  Checkout Repository → Setup Runtime Environment → Manage Build Cache
+    [   5 |   1.4%]  Checkout Repository → Install Project Dependencies → Setup Runtime Environment
+
+  4-step prefixes:
+    [  19 |   5.2%]  Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis
+    [  15 |   4.1%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis
+    [  14 |   3.8%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project
+    [   9 |   2.5%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests
+    [   5 |   1.4%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Generate Test Coverage
+
+=================================================================
+Most Common Sequence Suffixes (global, length 2-4)
+=================================================================
+
+  2-step suffixes:
+    [  25 |   6.8%]  Build Project → Perform Security Analysis
+    [  12 |   3.3%]  Setup Runtime Environment → Build Project
+    [  10 |   2.7%]  Build Project → Upload Build Artifacts
+    [   9 |   2.5%]  Install Project Dependencies → Execute Tests
+    [   7 |   1.9%]  Install Project Dependencies → Run Static Analysis
+
+  3-step suffixes:
+    [  22 |   6.0%]  Initialize Security Analysis → Build Project → Perform Security Analysis
+    [   9 |   2.5%]  Checkout Repository → Setup Runtime Environment → Build Project
+    [   6 |   1.6%]  Setup Runtime Environment → Install Project Dependencies → Execute Tests
+    [   6 |   1.6%]  Setup Runtime Environment → Install Project Dependencies → Run Static Analysis
+    [   4 |   1.1%]  Install Project Dependencies → Run Static Analysis → Execute Tests
+
+  4-step suffixes:
+    [  19 |   5.2%]  Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis
+    [   6 |   1.6%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests
+    [   4 |   1.1%]  Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests
+    [   4 |   1.1%]  Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis
+    [   4 |   1.1%]  Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts
+
+=================================================================
+Construct Absence Patterns (global)
+=================================================================
+  build_no_test                          163  (44.7%)
+  checkout_only                           81  (22.2%)
+  build_no_setup                          55  (15.1%)
+  test_no_build                           44  (12.1%)
+  no_checkout_no_setup                    31  (8.5%)
+  test_no_setup                           10  (2.7%)
+  test_no_checkout                         1  (0.3%)
+  build_no_checkout                        1  (0.3%)
+
+=================================================================
+Non-Checkout-First Workflows
+=================================================================
+  Count: 58 / 365  (15.9%)
+
+  Top-20 actual first steps in these workflows:
+    Manage Workflow Automation                             6  (1.6%)
+    Setup Runtime Environment                              5  (1.4%)
+    Generate Version Metadata                              3  (0.8%)
+    Download Build Artifacts                               2  (0.5%)
+    DenverCoder1/doxygen-github-pages-action               2  (0.5%)
+    Install Project Dependencies                           2  (0.5%)
+    fkirc/skip-duplicate-actions                           2  (0.5%)
+    Publish Release                                        2  (0.5%)
+    Export Environment Configuration                       2  (0.5%)
+    Execute Automation Script                              2  (0.5%)
+    Install External Tool                                  2  (0.5%)
+    Configure Build Profile                                1  (0.3%)
+    actions/add-to-project                                 1  (0.3%)
+    Free Disk Space (Ubuntu)                               1  (0.3%)
+    Information                                            1  (0.3%)
+    Set ESDB docker repo                                   1  (0.3%)
+    Auto Comment on Issues Opened                          1  (0.3%)
+    Set build configuration                                1  (0.3%)
+    Send Notification                                      1  (0.3%)
+    Manage Labels                                          1  (0.3%)
+
+=================================================================
+Trigger x Construct: presence % by trigger type
+=================================================================
+trigger    pull_request   push  schedule  workflow_dispatch
+construct                                                  
+build             63.93  63.26     48.00               63.0
+cache             15.53  15.53      6.67               11.0
+checkout          95.89  97.35     88.00               95.0
+composite          0.46   0.38      1.33                0.0
+reusable           2.28   1.89      2.67                6.0
+setup             69.41  68.94     44.00               75.0
+test              35.62  30.30     17.33               25.0
+
+  (diff = pct_with_trigger minus pct_without_trigger)
+trigger    pull_request   push  schedule  workflow_dispatch
+construct                                                  
+build             15.98  20.69    -12.00               7.53
+cache              6.63   9.59     -7.81              -2.58
+checkout          10.96  21.11     -4.41               4.81
+composite          0.46   0.38      1.33              -0.38
+reusable          -0.46  -2.07      0.26               4.87
+setup              6.40   7.55    -28.76              11.23
+test              26.72  19.41     -9.57               0.09
+
+=================================================================
+Modularity x Complexity
+=================================================================
+  [reusable_workflow | uses]  n=9  avg_len=6.33  completeness=0.556  SHA-pinned=11.11%  cache=0.0%
+  [reusable_workflow | no_use]  n=356  avg_len=5.8  completeness=0.603  SHA-pinned=3.37%  cache=13.2%
+  [composite_action | uses]  n=1  avg_len=4.0  completeness=0.5  SHA-pinned=0.0%  cache=0.0%
+  [composite_action | no_use]  n=364  avg_len=5.82  completeness=0.602  SHA-pinned=3.57%  cache=12.91%
+
+=================================================================
+Version Pinning by Language
+=================================================================
+  java            n=72     SHA=5.6%  tag=95.8%  branch=1.4%  unpinned=2.8%
+  python          n=214    SHA=1.9%  tag=96.7%  branch=22.0%  unpinned=1.4%
+  c++             n=79     SHA=6.3%  tag=94.9%  branch=17.7%  unpinned=1.3%

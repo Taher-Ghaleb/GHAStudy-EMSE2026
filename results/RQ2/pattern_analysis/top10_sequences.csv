@@ -1,0 +1,41 @@
+﻿scope,rank,sequence_id,count,percentage,meets_5pct,sequence_length
+global,1,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,19,5.21,True,4
+global,2,Checkout Repository → Setup Runtime Environment → Build Project,8,2.19,False,3
+global,3,Manage Workflow Automation,6,1.64,False,1
+global,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests,6,1.64,False,4
+global,5,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts,4,1.1,False,5
+global,6,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,4,1.1,False,4
+global,7,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests,4,1.1,False,5
+global,8,Checkout Repository → Configure Cloud Resources → Generate Version Metadata → Build Project,3,0.82,False,4
+global,9,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Package → Publish Package,3,0.82,False,5
+global,10,Checkout Repository → Initialize Security Analysis → Perform Security Analysis,3,0.82,False,3
+c++,1,DenverCoder1/doxygen-github-pages-action,2,2.53,False,1
+c++,2,Checkout Repository → Setup Runtime Environment → Free Disk Space (Ubuntu) → Build Project → Install CUDA ${{ matrix.cuda-version }} → Publish Conda package on organization channel → Publish Conda package on personal channel,1,1.27,False,7
+c++,3,fkirc/skip-duplicate-actions → Checkout Repository → Set Variables → Manage Build Cache → Setup Runtime Environment → Install Project Dependencies → Build Firmware → Configure Build Profile → Clean Project Artifacts → Add Web UI to update → Add Demo mode files to update → Upload Build Artifacts → Add Web UI to remote_setup → drewg13/get-version-action → Publish Release → Deploy Application,1,1.27,False,16
+c++,4,Manage Workflow Automation,1,1.27,False,1
+c++,5,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Upload Build Artifacts → Build Project → Download Build Artifacts,1,1.27,False,6
+c++,6,Checkout Repository → Setup Build Environment → Setup Runtime Environment → pip install -r support/python/requirements.txt → Run Static Analysis → ./.Github/Actions/Setup Tools Shared → ./.Github/Actions/Generate Offset Run Number → Manage Build Cache → Build Project → Build Source Code → Configure Build Profile → Execute Tests → ./.Github/Actions/Upload Esmini Artifacts → Run schema validation → Download Build Artifacts → Determine Version → Publish Release,1,1.27,False,17
+c++,7,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project → ldconfig → Build Source Code → Run Static Analysis → Ros-Industrial/Industrial Ci,1,1.27,False,8
+c++,8,Checkout Repository → Configure Build Profile → Inspect Runtime Environment → Build Source Code → Manage Build Cache → Setup Build Environment → Log Toolkit Message → Prepare Build Artifacts → Upload Build Artifacts → Download Build Artifacts → Inspect Repository State → Log Workflow Message → Install Project Dependencies → Check installation → Configure Documentation → Build Documentation → Clean Project Artifacts,1,1.27,False,17
+c++,9,Checkout Repository → Manage Build Cache → Setup Runtime Environment → Build Project,1,1.27,False,4
+c++,10,Checkout Repository → Setup Runtime Environment → Restore Godot build cache → Publish Release → Extract pre-built Android Swappy Frame Pacing Library → Compilation → Save Godot build cache → Generate Godot templates → Generate Godot editor → Upload Build Artifacts,1,1.27,False,10
+java,1,Checkout Repository → Setup Runtime Environment → Build Project,7,9.72,True,3
+java,2,Checkout Repository → Setup Runtime Environment → Manage Build Cache → Build Project,2,2.78,False,4
+java,3,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,2,2.78,False,4
+java,4,Execute Automation Script,2,2.78,False,1
+java,5,Checkout Repository → Download Build Artifacts → Setup Runtime Environment → Build Project → Execute Tests,1,1.39,False,5
+java,6,Checkout Repository → Configure Build Profile → Setup Runtime Environment → Configure Secure Access → Publish Package → Build Project → Generate Version Metadata → Split Artifacts → Upload Build Artifacts,1,1.39,False,9
+java,7,Checkout Repository → Setup Build Environment → Generate Version Metadata → Add commit hash to artifact → Build Source Code → Build Container Image → Download External Resources → Execute Tests → Build Project → Configure Build Profile → Publish Artifacts → Configure Cloud Resources → Upload Build Artifacts,1,1.39,False,13
+java,8,Checkout Repository → Setup Runtime Environment → Build Project → Manage Build Cache,1,1.39,False,4
+java,9,Checkout Repository → Verify Build Integrity → Setup Runtime Environment → Generate Version Metadata → Execute Tests → Upload Build Artifacts → Run Plugin Verification tasks → Clean Project Artifacts → Publish Release,1,1.39,False,9
+java,10,Checkout Repository → Setup Runtime Environment → Build Project → Sonar Scan,1,1.39,False,4
+python,1,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,17,7.94,True,4
+python,2,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests,6,2.8,False,4
+python,3,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests,4,1.87,False,5
+python,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,4,1.87,False,4
+python,5,Manage Workflow Automation,4,1.87,False,1
+python,6,Checkout Repository → Initialize Security Analysis → Perform Security Analysis,3,1.4,False,3
+python,7,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Package → Publish Package,3,1.4,False,5
+python,8,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts,3,1.4,False,5
+python,9,Publish Release,2,0.93,False,1
+python,10,Checkout Repository → Configure Cloud Resources → Generate Version Metadata → Build Project,2,0.93,False,4

@@ -1,0 +1,27 @@
+RQ2 Statistical Tests Summary (N=382)
+============================================================
+
+Significant Kruskal-Wallis tests: 2
+Significant Mann-Whitney tests: 4
+Significant chi-square tests: 4
+Significant Fisher tests: 9
+
+Notable continuous comparisons:
+  sequence_length: C++ vs Java delta=0.174 p=0.0637
+  num_steps_total: C++ vs Java delta=0.227 p=0.0158
+  completeness_score: Java vs Python delta=0.227 p=0.0022
+  num_jobs: C++ vs Java delta=0.174 p=0.0234
+
+Notable proportion comparisons:
+  has_setup: C++ vs Java 57.0% vs 80.6% h=-0.518 p=0.0028
+  has_setup: Java vs Python 80.6% vs 65.9% h=0.334 p=0.0258
+  has_build: C++ vs Python 70.9% vs 48.1% h=0.468 p=0.0006
+  has_build: Java vs Python 70.8% vs 48.1% h=0.467 p=0.0010
+  uses_cache: C++ vs Python 20.3% vs 6.5% h=0.416 p=0.0017
+  uses_cache: Java vs Python 23.6% vs 6.5% h=0.498 p=0.0002
+  has_schedule: C++ vs Python 8.9% vs 28.0% h=-0.512 p=0.0003
+  has_schedule: Java vs Python 11.1% vs 28.0% h=-0.436 p=0.0037
+  has_workflow_dispatch: C++ vs Java 27.8% vs 16.7% h=0.271 p=0.1203
+  has_workflow_dispatch: Java vs Python 16.7% vs 30.8% h=-0.336 p=0.0216
+  any_sha_pinned: C++ vs Python 6.3% vs 1.9% h=0.234 p=0.0628
+  any_sha_pinned: Java vs Python 5.6% vs 1.9% h=0.202 p=0.1132

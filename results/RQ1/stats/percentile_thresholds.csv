@@ -1,0 +1,19 @@
+metric,p70_cutpoint,p80_cutpoint,p90_cutpoint,n_unique_values,assignment_method,band_low,band_moderate,band_high,band_very_high
+lines_of_yaml,70.0,90.0,137.0,627,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_jobs,1.0,2.0,3.0,39,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_steps,8.0,10.0,16.0,147,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+max_nesting_depth,5.0,5.0,5.0,5,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+job_parallelism,1.0,2.0,3.0,39,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+max_sequential_steps,6.0,8.0,10.0,62,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+vertical_depth,1.0,1.0,2.0,12,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+matrix_size,0.0,2.0,6.0,124,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_conditionals,1.0,1.0,3.0,61,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_job_dependencies,0.0,0.0,1.0,48,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_reusable_workflows,0.0,0.0,0.0,17,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_unique_external_actions,3.0,4.0,5.0,23,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_local_actions,0.0,0.0,0.0,14,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+num_marketplace_actions,1.0,1.0,2.0,17,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+avg_steps_per_job,6.0,7.0,9.0,460,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+dependency_ratio,0.0,0.0,0.5,159,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+external_action_diversity,0.636,0.75,1.0,328,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90
+conditional_density,0.111,0.185,0.333,463,value-threshold (identical values same band),value <= p70,p70 < value <= p80,p80 < value <= p90,value > p90

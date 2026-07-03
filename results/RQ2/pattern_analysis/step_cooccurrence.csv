@@ -1,0 +1,121 @@
+﻿scope,step_a,step_b,count,percentage
+global,Checkout Repository,Setup Runtime Environment,218,59.73
+global,Build Project,Checkout Repository,164,44.93
+global,Checkout Repository,Install Project Dependencies,158,43.29
+global,Install Project Dependencies,Setup Runtime Environment,128,35.07
+global,Build Project,Setup Runtime Environment,104,28.49
+global,Checkout Repository,Upload Build Artifacts,99,27.12
+global,Checkout Repository,Execute Tests,90,24.66
+global,Setup Runtime Environment,Upload Build Artifacts,75,20.55
+global,Execute Tests,Setup Runtime Environment,72,19.73
+global,Build Project,Install Project Dependencies,58,15.89
+global,Execute Tests,Install Project Dependencies,57,15.62
+global,Build Project,Upload Build Artifacts,52,14.25
+global,Install Project Dependencies,Upload Build Artifacts,51,13.97
+global,Checkout Repository,Run Static Analysis,49,13.42
+global,Checkout Repository,Manage Build Cache,47,12.88
+global,Run Static Analysis,Setup Runtime Environment,45,12.33
+global,Checkout Repository,Setup Build Environment,43,11.78
+global,Manage Build Cache,Setup Runtime Environment,38,10.41
+global,Install Project Dependencies,Run Static Analysis,36,9.86
+global,Checkout Repository,Download Build Artifacts,35,9.59
+global,Checkout Repository,Configure Build Profile,35,9.59
+global,Build Project,Execute Tests,32,8.77
+global,Download Build Artifacts,Upload Build Artifacts,30,8.22
+global,Checkout Repository,Perform Security Analysis,30,8.22
+global,Download Build Artifacts,Setup Runtime Environment,29,7.95
+global,Checkout Repository,Initialize Security Analysis,29,7.95
+global,Initialize Security Analysis,Perform Security Analysis,29,7.95
+global,Build Project,Setup Build Environment,29,7.95
+global,Build Source Code,Checkout Repository,28,7.67
+global,Build Project,Manage Build Cache,27,7.4
+c++,Build Project,Checkout Repository,41,51.9
+c++,Checkout Repository,Install Project Dependencies,34,43.04
+c++,Checkout Repository,Setup Runtime Environment,28,35.44
+c++,Build Source Code,Checkout Repository,26,32.91
+c++,Checkout Repository,Setup Build Environment,24,30.38
+c++,Checkout Repository,Upload Build Artifacts,23,29.11
+c++,Build Project,Install Project Dependencies,22,27.85
+c++,Checkout Repository,Execute Tests,20,25.32
+c++,Build Project,Setup Runtime Environment,18,22.78
+c++,Build Source Code,Install Project Dependencies,17,21.52
+c++,Checkout Repository,Manage Build Cache,16,20.25
+c++,Build Project,Build Source Code,15,18.99
+c++,Install Project Dependencies,Setup Runtime Environment,15,18.99
+c++,Build Project,Upload Build Artifacts,14,17.72
+c++,Build Project,Setup Build Environment,14,17.72
+c++,Execute Tests,Setup Build Environment,12,15.19
+c++,Install Project Dependencies,Upload Build Artifacts,12,15.19
+c++,Setup Runtime Environment,Upload Build Artifacts,11,13.92
+c++,Build Source Code,Setup Build Environment,11,13.92
+c++,Checkout Repository,Download Build Artifacts,10,12.66
+c++,Install Project Dependencies,Setup Build Environment,10,12.66
+c++,Build Project,Execute Tests,10,12.66
+c++,Build Project,Manage Build Cache,10,12.66
+c++,Execute Tests,Install Project Dependencies,10,12.66
+c++,Install Project Dependencies,Manage Build Cache,10,12.66
+c++,Setup Build Environment,Upload Build Artifacts,10,12.66
+c++,Build Source Code,Execute Tests,10,12.66
+c++,Build Source Code,Setup Runtime Environment,10,12.66
+c++,Download Build Artifacts,Upload Build Artifacts,9,11.39
+c++,Setup Build Environment,Setup Runtime Environment,9,11.39
+java,Checkout Repository,Setup Runtime Environment,57,79.17
+java,Build Project,Checkout Repository,49,68.06
+java,Build Project,Setup Runtime Environment,46,63.89
+java,Checkout Repository,Manage Build Cache,17,23.61
+java,Manage Build Cache,Setup Runtime Environment,17,23.61
+java,Checkout Repository,Upload Build Artifacts,17,23.61
+java,Checkout Repository,Execute Tests,16,22.22
+java,Setup Runtime Environment,Upload Build Artifacts,16,22.22
+java,Execute Tests,Setup Runtime Environment,14,19.44
+java,Build Project,Upload Build Artifacts,14,19.44
+java,Build Project,Manage Build Cache,12,16.67
+java,Build Project,Execute Tests,9,12.5
+java,Checkout Repository,Run Static Analysis,8,11.11
+java,Checkout Repository,Verify Build Integrity,8,11.11
+java,Run Static Analysis,Setup Runtime Environment,7,9.72
+java,Setup Runtime Environment,Verify Build Integrity,7,9.72
+java,Checkout Repository,Perform Security Analysis,6,8.33
+java,Execute Tests,Upload Build Artifacts,6,8.33
+java,Checkout Repository,Publish Release,6,8.33
+java,Build Project,Verify Build Integrity,6,8.33
+java,Checkout Repository,Generate Version Metadata,6,8.33
+java,Build Project,Configure Build Profile,5,6.94
+java,Checkout Repository,Configure Build Profile,5,6.94
+java,Build Project,Perform Security Analysis,5,6.94
+java,Checkout Repository,Initialize Security Analysis,5,6.94
+java,Initialize Security Analysis,Perform Security Analysis,5,6.94
+java,Publish Release,Setup Runtime Environment,5,6.94
+java,Execute Tests,Manage Build Cache,5,6.94
+java,Checkout Repository,Setup Build Environment,5,6.94
+java,Checkout Repository,Install Project Dependencies,5,6.94
+python,Checkout Repository,Setup Runtime Environment,133,62.15
+python,Checkout Repository,Install Project Dependencies,119,55.61
+python,Install Project Dependencies,Setup Runtime Environment,109,50.93
+python,Build Project,Checkout Repository,74,34.58
+python,Checkout Repository,Upload Build Artifacts,59,27.57
+python,Checkout Repository,Execute Tests,54,25.23
+python,Execute Tests,Setup Runtime Environment,50,23.36
+python,Setup Runtime Environment,Upload Build Artifacts,48,22.43
+python,Execute Tests,Install Project Dependencies,44,20.56
+python,Build Project,Setup Runtime Environment,40,18.69
+python,Install Project Dependencies,Upload Build Artifacts,39,18.22
+python,Build Project,Install Project Dependencies,35,16.36
+python,Checkout Repository,Run Static Analysis,32,14.95
+python,Run Static Analysis,Setup Runtime Environment,32,14.95
+python,Install Project Dependencies,Run Static Analysis,26,12.15
+python,Build Project,Upload Build Artifacts,24,11.21
+python,Checkout Repository,Initialize Security Analysis,23,10.75
+python,Checkout Repository,Perform Security Analysis,23,10.75
+python,Initialize Security Analysis,Perform Security Analysis,23,10.75
+python,Checkout Repository,Configure Build Profile,22,10.28
+python,Checkout Repository,Download Build Artifacts,21,9.81
+python,Execute Tests,Run Static Analysis,20,9.35
+python,Checkout Repository,Configure Cloud Resources,20,9.35
+python,Download Build Artifacts,Upload Build Artifacts,20,9.35
+python,Configure Build Profile,Setup Runtime Environment,19,8.88
+python,Build Project,Initialize Security Analysis,19,8.88
+python,Build Project,Perform Security Analysis,19,8.88
+python,Checkout Repository,Publish Package,19,8.88
+python,Download Build Artifacts,Setup Runtime Environment,19,8.88
+python,Checkout Repository,Generate Test Coverage,18,8.41

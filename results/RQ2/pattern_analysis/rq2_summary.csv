@@ -1,0 +1,2 @@
+﻿total_workflows,avg_sequence_length,median_sequence_length,pct_has_checkout,pct_has_setup,pct_has_build,pct_has_test,avg_completeness_score,pct_starts_with_checkout,non_checkout_first_count,pct_push,pct_pull_request,pct_schedule,pct_workflow_dispatch,pct_uses_cache,pct_reusable_workflows,pct_composite_actions,pct_any_sha_pinned,pct_any_tag_pinned,pct_any_unpinned,common_constructs_count,common_full_sequences_count
+365,5.81,5.0,91.51,66.85,57.53,24.93,0.602,84.11,58,72.33,60.0,20.55,27.4,12.88,2.47,0.27,3.56,96.16,1.64,21,1

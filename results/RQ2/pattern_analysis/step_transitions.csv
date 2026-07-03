@@ -1,0 +1,201 @@
+﻿scope,from_step,to_step,count,pct_of_all_transitions
+global,Checkout Repository,Setup Runtime Environment,161,9.163
+global,Setup Runtime Environment,Install Project Dependencies,98,5.578
+global,Setup Runtime Environment,Build Project,30,1.707
+global,Build Project,Perform Security Analysis,25,1.423
+global,Checkout Repository,Initialize Security Analysis,23,1.309
+global,Install Project Dependencies,Build Project,23,1.309
+global,Checkout Repository,Install Project Dependencies,22,1.252
+global,Initialize Security Analysis,Build Project,22,1.252
+global,Install Project Dependencies,Run Static Analysis,22,1.252
+global,Build Project,Upload Build Artifacts,20,1.138
+global,Install Project Dependencies,Execute Tests,20,1.138
+global,Upload Build Artifacts,Download Build Artifacts,16,0.911
+global,Checkout Repository,Setup Build Environment,15,0.854
+global,Build Project,Execute Tests,14,0.797
+global,Setup Runtime Environment,Manage Build Cache,14,0.797
+global,Checkout Repository,Build Project,11,0.626
+global,Run Static Analysis,Execute Tests,11,0.626
+global,Manage Build Cache,Build Project,10,0.569
+global,Setup Build Environment,Build Project,9,0.512
+global,Checkout Repository,Generate Version Metadata,8,0.455
+global,Checkout Repository,Manage Build Cache,8,0.455
+global,Setup Runtime Environment,Run Static Analysis,8,0.455
+global,Configure Build Profile,Upload Build Artifacts,7,0.398
+global,Install Project Dependencies,Setup Runtime Environment,7,0.398
+global,Configure Cloud Resources,Build Project,7,0.398
+global,Checkout Repository,Configure Cloud Resources,7,0.398
+global,Execute Tests,Upload Coverage,7,0.398
+global,Build Source Code,Build Project,6,0.341
+global,Download Build Artifacts,Publish Package,6,0.341
+global,Upload Build Artifacts,Deploy Application,6,0.341
+global,Manage Build Cache,Install Project Dependencies,6,0.341
+global,Setup Build Environment,Configure Cloud Resources,6,0.341
+global,Install Project Dependencies,Generate Test Coverage,6,0.341
+global,Manage Build Cache,Setup Runtime Environment,6,0.341
+global,Build Project,Publish Package,6,0.341
+global,Checkout Repository,Export Environment Configuration,6,0.341
+global,Execute Tests,Generate Test Coverage,6,0.341
+global,Install Project Dependencies,Manage Build Cache,6,0.341
+global,Build Project,Deploy Documentation,5,0.285
+global,Generate Test Coverage,Upload Coverage,5,0.285
+global,Setup Runtime Environment,Export Environment Configuration,5,0.285
+global,Install Project Dependencies,Build Package,5,0.285
+global,Build Package,Publish Package,5,0.285
+global,Configure Cloud Resources,Generate Version Metadata,5,0.285
+global,Generate Version Metadata,Build Project,5,0.285
+global,Execute Tests,Upload Build Artifacts,5,0.285
+global,Manage Build Cache,Execute Tests,5,0.285
+global,Build Project,Configure Build Profile,4,0.228
+global,Install Project Dependencies,Build Documentation,4,0.228
+global,Setup Runtime Environment,Checkout Repository,4,0.228
+c++,Checkout Repository,Install Project Dependencies,13,3.044
+c++,Checkout Repository,Setup Runtime Environment,12,2.81
+c++,Checkout Repository,Setup Build Environment,11,2.576
+c++,Setup Runtime Environment,Install Project Dependencies,7,1.639
+c++,Build Source Code,Build Project,6,1.405
+c++,Checkout Repository,Build Project,6,1.405
+c++,Build Project,Upload Build Artifacts,6,1.405
+c++,Setup Build Environment,Build Project,5,1.171
+c++,Install Project Dependencies,Build Project,5,1.171
+c++,Build Project,Execute Tests,5,1.171
+c++,Install Project Dependencies,Setup Runtime Environment,4,0.937
+c++,Setup Build Environment,Build Source Code,4,0.937
+c++,Build Source Code,Execute Tests,4,0.937
+c++,Checkout Repository,Manage Build Cache,4,0.937
+c++,Setup Build Environment,Setup Runtime Environment,4,0.937
+c++,Manage Build Cache,Build Project,4,0.937
+c++,Build Project,Deploy Documentation,3,0.703
+c++,Checkout Repository,Build Source Code,3,0.703
+c++,Setup Runtime Environment,Build Project,3,0.703
+c++,Build Project,Build Source Code,2,0.468
+c++,Manage Build Cache,Install Project Dependencies,2,0.468
+c++,Install Project Dependencies,Verify Build Integrity,2,0.468
+c++,Checkout Repository,Run Static Analysis,2,0.468
+c++,Install Project Dependencies,Execute Tests,2,0.468
+c++,Install Project Dependencies,Run Static Analysis,2,0.468
+c++,Setup Build Environment,Configure Cloud Resources,2,0.468
+c++,Upload Build Artifacts,Download Build Artifacts,2,0.468
+c++,Setup Runtime Environment,Export Environment Configuration,2,0.468
+c++,Build Project,Install Project Dependencies,2,0.468
+c++,Install External Tool,Checkout Repository,2,0.468
+c++,Manage Build Cache,Setup Build Environment,2,0.468
+c++,Install Project Dependencies,Build Source Code,2,0.468
+c++,Manage Build Cache,Configure Build Profile,2,0.468
+c++,Run Static Analysis,Build Source Code,2,0.468
+c++,Manage Build Cache,Setup Runtime Environment,2,0.468
+c++,Setup Runtime Environment,Manage Build Cache,2,0.468
+c++,Install Project Dependencies,Checkout Repository,2,0.468
+c++,Setup Runtime Environment,Free Disk Space (Ubuntu),1,0.234
+c++,Free Disk Space (Ubuntu),Build Project,1,0.234
+c++,Build Project,Install CUDA ${{ matrix.cuda-version }},1,0.234
+c++,Install CUDA ${{ matrix.cuda-version }},Publish Conda package on organization channel,1,0.234
+c++,Publish Conda package on organization channel,Publish Conda package on personal channel,1,0.234
+c++,Install Project Dependencies,Download External Resources,1,0.234
+c++,Download External Resources,Build Source Code,1,0.234
+c++,Build Project,Check metadata,1,0.234
+c++,Check metadata,Upload Build Artifacts,1,0.234
+c++,Upload Build Artifacts,Build Python Wheel,1,0.234
+c++,Build Python Wheel,Verify clean directory,1,0.234
+c++,Verify clean directory,Setup Runtime Environment,1,0.234
+c++,Setup Runtime Environment,Download Build Artifacts,1,0.234
+java,Checkout Repository,Setup Runtime Environment,38,12.338
+java,Setup Runtime Environment,Build Project,22,7.143
+java,Setup Runtime Environment,Manage Build Cache,8,2.597
+java,Build Project,Execute Tests,5,1.623
+java,Build Project,Perform Security Analysis,5,1.623
+java,Manage Build Cache,Build Project,5,1.623
+java,Build Project,Upload Build Artifacts,5,1.623
+java,Checkout Repository,Verify Build Integrity,4,1.299
+java,Manage Build Cache,Setup Runtime Environment,4,1.299
+java,Initialize Security Analysis,Build Project,3,0.974
+java,Setup Build Environment,Build Project,3,0.974
+java,Verify Build Integrity,Setup Runtime Environment,3,0.974
+java,Setup Runtime Environment,Run Static Analysis,3,0.974
+java,Setup Runtime Environment,Configure Secure Access,2,0.649
+java,Build Project,Configure Build Profile,2,0.649
+java,Checkout Repository,Initialize Security Analysis,2,0.649
+java,Setup Runtime Environment,Checkout Repository,2,0.649
+java,Checkout Repository,Publish Release,2,0.649
+java,Build Project,Run Static Analysis,2,0.649
+java,Setup Runtime Environment,Initialize Security Analysis,2,0.649
+java,Checkout Repository,Manage Build Cache,2,0.649
+java,Execute Tests,Generate Test Coverage,2,0.649
+java,Checkout Repository,Run Static Analysis,2,0.649
+java,Run Static Analysis,Install Project Dependencies,2,0.649
+java,Execute Tests,Build Project,2,0.649
+java,Setup Runtime Environment,Execute Tests,2,0.649
+java,Checkout Repository,Build Project,2,0.649
+java,Build Project,Manage Build Cache,2,0.649
+java,Build Project,Publish Package,2,0.649
+java,Setup Runtime Environment,Export Environment Configuration,2,0.649
+java,Build Project,Generate Version Metadata,2,0.649
+java,Configure Cloud Resources,Upload Build Artifacts,2,0.649
+java,gradle/actions/wrapper-validation,Setup Runtime Environment,2,0.649
+java,Run Static Analysis,Execute Tests,2,0.649
+java,Setup Runtime Environment,Setup Build Environment,2,0.649
+java,Checkout Repository,Generate Version Metadata,2,0.649
+java,Checkout Repository,Download Build Artifacts,1,0.325
+java,Download Build Artifacts,Setup Runtime Environment,1,0.325
+java,Setup Runtime Environment,Generate cache key,1,0.325
+java,Generate cache key,Manage Build Cache,1,0.325
+java,Manage Build Cache,Download Build Artifacts,1,0.325
+java,Download Build Artifacts,Build Project,1,0.325
+java,Configure Secure Access,Set up Gradle build,1,0.325
+java,Set up Gradle build,Build Project,1,0.325
+java,Configure Build Profile,Upload Build Artifacts,1,0.325
+java,Checkout Repository,Execute Tests,1,0.325
+java,Execute Tests,Capture Test Output,1,0.325
+java,Capture Test Output,Build Project,1,0.325
+java,Build Project,Check Spelling,1,0.325
+java,Check Spelling,Setup Base Environment,1,0.325
+python,Checkout Repository,Setup Runtime Environment,111,10.861
+python,Setup Runtime Environment,Install Project Dependencies,90,8.806
+python,Checkout Repository,Initialize Security Analysis,20,1.957
+python,Initialize Security Analysis,Build Project,19,1.859
+python,Build Project,Perform Security Analysis,19,1.859
+python,Install Project Dependencies,Run Static Analysis,19,1.859
+python,Install Project Dependencies,Execute Tests,17,1.663
+python,Install Project Dependencies,Build Project,17,1.663
+python,Upload Build Artifacts,Download Build Artifacts,14,1.37
+python,Run Static Analysis,Execute Tests,9,0.881
+python,Checkout Repository,Install Project Dependencies,9,0.881
+python,Build Project,Upload Build Artifacts,9,0.881
+python,Execute Tests,Upload Coverage,7,0.685
+python,Configure Build Profile,Upload Build Artifacts,6,0.587
+python,Configure Cloud Resources,Build Project,6,0.587
+python,Install Project Dependencies,Generate Test Coverage,6,0.587
+python,Checkout Repository,Export Environment Configuration,6,0.587
+python,Generate Test Coverage,Upload Coverage,5,0.489
+python,Upload Build Artifacts,Deploy Application,5,0.489
+python,Checkout Repository,Generate Version Metadata,5,0.489
+python,Setup Runtime Environment,Build Project,5,0.489
+python,Install Project Dependencies,Build Package,5,0.489
+python,Checkout Repository,Configure Cloud Resources,5,0.489
+python,Install Project Dependencies,Manage Build Cache,5,0.489
+python,Install Project Dependencies,Build Documentation,4,0.391
+python,Build Package,Publish Package,4,0.391
+python,Build Package,Upload Build Artifacts,4,0.391
+python,Download Build Artifacts,Publish Package,4,0.391
+python,Build Documentation,Upload Build Artifacts,4,0.391
+python,Setup Build Environment,Configure Cloud Resources,4,0.391
+python,Configure Cloud Resources,Generate Version Metadata,4,0.391
+python,Initialize Security Analysis,Perform Security Analysis,4,0.391
+python,Generate Version Metadata,Build Project,4,0.391
+python,Build Project,Publish Package,4,0.391
+python,Setup Runtime Environment,Manage Build Cache,4,0.391
+python,Manage Build Cache,Install Project Dependencies,4,0.391
+python,Execute Tests,Generate Test Coverage,4,0.391
+python,Build Project,Execute Tests,4,0.391
+python,Setup Runtime Environment,Run Static Analysis,4,0.391
+python,Manage Build Cache,Execute Tests,4,0.391
+python,Checkout Repository,Switch Git Reference,3,0.294
+python,Switch Git Reference,Initialize Security Analysis,3,0.294
+python,Run Static Analysis,Generate Test Coverage,3,0.294
+python,Checkout Repository,Setup Build Environment,3,0.294
+python,Setup Runtime Environment,Build Package,3,0.294
+python,Install Project Dependencies,Inspect Runtime Environment,3,0.294
+python,Checkout Repository,Build Project,3,0.294
+python,Execute Benchmarks,Upload Build Artifacts,3,0.294
+python,Install Project Dependencies,Configure Build Profile,3,0.294
+python,Export Environment Configuration,Setup Runtime Environment,3,0.294

@@ -1,0 +1,4 @@
+﻿language,n,pct_any_sha,pct_any_tag,pct_any_branch,pct_any_unpinned,avg_sha_count,avg_tag_count,avg_unpinned_count
+c++,79,6.33,94.94,17.72,1.27,0.08,2.97,0.01
+java,72,5.56,95.83,1.39,2.78,0.1,2.88,0.03
+python,214,1.87,96.73,21.96,1.4,0.08,2.94,0.01

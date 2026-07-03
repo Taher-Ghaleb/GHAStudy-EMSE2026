@@ -1,0 +1,25 @@
+file,error
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\ccaprani@pycba\gha_sphinx_docs_to_gh_pages.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\ccaprani@pycba\gha_sphinx_docs_to_gh_pages.yml"", line 3, column 8"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\huggingface@optimum-graphcore\gha_delete_doc_comment.yml,"YAML error: while parsing a block mapping
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\huggingface@optimum-graphcore\gha_delete_doc_comment.yml"", line 4, column 3
+expected <block end>, but found '<block mapping start>'
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\huggingface@optimum-graphcore\gha_delete_doc_comment.yml"", line 5, column 5"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\myhhub@stock\gha_azure-container-webapp.yml,"YAML error: expected '<document start>', but found '<block mapping start>'
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\myhhub@stock\gha_azure-container-webapp.yml"", line 30, column 1"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\myhhub@stock\gha_docker-image.yml,"YAML error: mapping values are not allowed here
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\myhhub@stock\gha_docker-image.yml"", line 3, column 3"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\pbrod@nvector\gha_python-package.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\pbrod@nvector\gha_python-package.yml"", line 32, column 22"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\sdpython@mlinsights\gha_check-urls.yml,"YAML error: mapping values are not allowed here
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\sdpython@mlinsights\gha_check-urls.yml"", line 45, column 28"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\st-tech@ppf-contact-solver\gha_example_template.yml,"YAML error: while scanning an alias
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\st-tech@ppf-contact-solver\gha_example_template.yml"", line 5, column 7
+expected alphabetic or numeric character, but found '*'
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\st-tech@ppf-contact-solver\gha_example_template.yml"", line 5, column 8"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\Ultimaker@Cura\gha_update-translation.yml,"YAML error: mapping values are not allowed here
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\Ultimaker@Cura\gha_update-translation.yml"", line 14, column 11"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\WolvenKit@Cyberpunk-Blender-add-on\gha_build_and_release.yml,"YAML error: mapping values are not allowed here
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\python_yml_files\WolvenKit@Cyberpunk-Blender-add-on\gha_build_and_release.yml"", line 2, column 22"

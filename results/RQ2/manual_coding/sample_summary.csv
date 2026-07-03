@@ -1,0 +1,4 @@
+﻿Language,Workflows,Unique Projects,Avg File Size (KB),Avg Jobs,Avg Steps,Simple,Moderate,Complex,Small Files,Medium Files,Large Files
+Python,220,220,2.19,1.73,8.57,83,68,69,75,71,74
+Java,79,79,1.9,1.61,6.96,26,34,19,26,30,23
+C++,83,83,3.28,2.18,10.93,19,25,39,19,27,37

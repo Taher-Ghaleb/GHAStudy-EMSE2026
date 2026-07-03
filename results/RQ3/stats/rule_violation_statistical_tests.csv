@@ -1,0 +1,38 @@
+feature,test,comparison,statistic,p_value,p_formatted,significant,effect_size,interpretation,prop1_pct,prop2_pct
+EFF-01,Chi-square,All languages,41.454,9.962625960943104e-10,9.9626e-10,True,N/A,Overall difference detected,,
+EFF-01,Fisher's exact,C++ vs Java,,1.0436509970304383e-05,1.0437e-05,True,0.762,medium,26.5,2.5
+EFF-01,Fisher's exact,C++ vs Python,,0.023300700104990364,0.0233,True,-0.306,small,26.5,40.9
+EFF-01,Fisher's exact,Java vs Python,,1.259772455617511e-12,1.2598e-12,True,-1.068,large,2.5,40.9
+EFF-02,Chi-square,All languages,0.0,,N/A,False,N/A,Expected count < 5; use pairwise Fisher tests,,
+EFF-02,Fisher's exact,C++ vs Java,,0.18907508858375224,0.1891,False,0.237,small,13.3,6.3
+EFF-02,Fisher's exact,C++ vs Python,,0.0004739284254332411,0.0005,True,0.443,small,13.3,2.3
+EFF-02,Fisher's exact,Java vs Python,,0.1361845770094547,0.1362,False,0.206,small,6.3,2.3
+MAINT-01,Chi-square,All languages,5.985,0.050163183127052494,0.0502,False,N/A,No overall difference,,
+MAINT-01,Fisher's exact,C++ vs Java,,0.02387552228448818,0.0239,True,0.381,small,20.5,7.6
+MAINT-01,Fisher's exact,C++ vs Python,,0.10373435900887798,0.1037,False,0.21,small,20.5,12.7
+MAINT-01,Fisher's exact,Java vs Python,,0.30134223448058806,0.3013,False,-0.171,negligible,7.6,12.7
+REL-01,Chi-square,All languages,0.0,,N/A,False,N/A,Expected count < 5; use pairwise Fisher tests,,
+REL-01,Fisher's exact,C++ vs Java,,1.0,1.0000,False,-0.042,negligible,94.0,94.9
+REL-01,Fisher's exact,C++ vs Python,,0.32055241778064425,0.3206,False,-0.137,negligible,94.0,96.8
+REL-01,Fisher's exact,Java vs Python,,0.489009930675959,0.4890,False,-0.095,negligible,94.9,96.8
+REL-02,Chi-square,All languages,0.0,,N/A,False,N/A,Expected count < 5; use pairwise Fisher tests,,
+REL-02,Fisher's exact,C++ vs Java,,0.6759712293448965,0.6760,False,-0.081,negligible,2.4,3.8
+REL-02,Fisher's exact,C++ vs Python,,1.0,1.0000,False,-0.047,negligible,2.4,3.2
+REL-02,Fisher's exact,Java vs Python,,0.7272552492690685,0.7273,False,0.034,negligible,3.8,3.2
+SEC-01,Chi-square,All languages,0.0,,N/A,False,N/A,Expected count < 5; use pairwise Fisher tests,,
+SEC-01,Fisher's exact,C++ vs Java,,0.48767492579059085,0.4877,False,-0.126,negligible,3.6,6.3
+SEC-01,Fisher's exact,C++ vs Python,,0.7670706356344241,0.7671,False,-0.089,negligible,3.6,5.5
+SEC-01,Fisher's exact,Java vs Python,,0.7797152169900317,0.7797,False,0.037,negligible,6.3,5.5
+SEC-02,Chi-square,All languages,1.499,0.47269705963324304,0.4727,False,N/A,No overall difference,,
+SEC-02,Fisher's exact,C++ vs Java,,1.0,1.0000,False,0.025,negligible,79.5,78.5
+SEC-02,Fisher's exact,C++ vs Python,,0.3704806983370945,0.3705,False,0.139,negligible,79.5,73.6
+SEC-02,Fisher's exact,Java vs Python,,0.4510081018161871,0.4510,False,0.114,negligible,78.5,73.6
+SEC-03,Chi-square,All languages,13.367,0.0012512677952383722,0.0013,True,N/A,Overall difference detected,,
+SEC-03,Fisher's exact,C++ vs Java,,0.0031646312265120385,0.0032,True,0.671,medium,10.8,0.0
+SEC-03,Fisher's exact,C++ vs Python,,0.4562398474115321,0.4562,False,-0.124,negligible,10.8,15.0
+SEC-03,Fisher's exact,Java vs Python,,3.1052741369322534e-05,3.1053e-05,True,-0.795,medium,0.0,15.0
+VER-01,Chi-square,All languages,6.515,0.03847490432018325,0.0385,True,N/A,Overall difference detected,,
+VER-01,Fisher's exact,C++ vs Java,,0.05625877331163521,0.0563,False,-0.325,small,63.9,78.5
+VER-01,Fisher's exact,C++ vs Python,,0.027778085222264305,0.0278,True,-0.296,small,63.9,77.3
+VER-01,Fisher's exact,Java vs Python,,0.8761977838238664,0.8762,False,0.029,negligible,78.5,77.3
+WA-01,Chi-square,All languages,0.0,1.0,1.0000,False,N/A,No variation (all pass or all fail),,

@@ -1,0 +1,5 @@
+﻿modularity_type,group,n,avg_sequence_length,avg_completeness,pct_sha_pinned,pct_uses_cache,pct_has_test,pct_has_build
+reusable_workflow,uses,9,6.33,0.556,11.11,0.0,22.22,44.44
+reusable_workflow,no_use,356,5.8,0.603,3.37,13.2,25.0,57.87
+composite_action,uses,1,4.0,0.5,0.0,0.0,0.0,0.0
+composite_action,no_use,364,5.82,0.602,3.57,12.91,25.0,57.69

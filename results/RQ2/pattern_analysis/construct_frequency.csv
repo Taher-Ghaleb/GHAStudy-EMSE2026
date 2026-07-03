@@ -1,0 +1,948 @@
+﻿scope,construct,count,percentage,is_common
+global,Checkout Repository,334,91.51,True
+global,Setup Runtime Environment,218,59.73,True
+global,Build Project,164,44.93,True
+global,Install Project Dependencies,158,43.29,True
+global,Upload Build Artifacts,99,27.12,True
+global,Execute Tests,91,24.93,True
+global,Run Static Analysis,50,13.7,True
+global,Manage Build Cache,47,12.88,True
+global,Setup Build Environment,43,11.78,True
+global,Download Build Artifacts,36,9.86,True
+global,Configure Build Profile,35,9.59,True
+global,Perform Security Analysis,30,8.22,True
+global,Initialize Security Analysis,29,7.95,True
+global,Build Source Code,28,7.67,True
+global,Configure Cloud Resources,28,7.67,True
+global,Publish Package,27,7.4,True
+global,Publish Release,27,7.4,True
+global,Export Environment Configuration,26,7.12,True
+global,Generate Version Metadata,25,6.85,True
+global,Generate Test Coverage,23,6.3,True
+global,Build Package,19,5.21,True
+global,Upload Coverage,18,4.93,False
+global,Inspect Runtime Environment,18,4.93,False
+global,Deploy Documentation,15,4.11,False
+global,Deploy Application,14,3.84,False
+global,Verify Build Integrity,14,3.84,False
+global,Build Documentation,13,3.56,False
+global,Clean Project Artifacts,12,3.29,False
+global,Publish Release Assets,10,2.74,False
+global,Manage Workflow Automation,10,2.74,False
+global,Download External Resources,8,2.19,False
+global,Build Container Image,7,1.92,False
+global,Send Notification,6,1.64,False
+global,Execute Benchmarks,6,1.64,False
+global,Install External Tool,5,1.37,False
+global,Execute Automation Script,4,1.1,False
+global,Free Disk Space (Ubuntu),3,0.82,False
+global,Configure Secure Access,3,0.82,False
+global,Switch Git Reference,3,0.82,False
+global,Manage Labels,3,0.82,False
+global,Validate Outputs,3,0.82,False
+global,HACS Action,2,0.55,False
+global,Setup Base Environment,2,0.55,False
+global,Execute Script,2,0.55,False
+global,Ros-Industrial/Industrial Ci,2,0.55,False
+global,validate codemeta,2,0.55,False
+global,Run script,2,0.55,False
+global,Build Static Site,2,0.55,False
+global,Decide whether the needed jobs succeeded or failed,2,0.55,False
+global,twine check dist/*,2,0.55,False
+global,DenverCoder1/doxygen-github-pages-action,2,0.55,False
+global,fkirc/skip-duplicate-actions,2,0.55,False
+global,gradle/actions/wrapper-validation,2,0.55,False
+global,Enable KVM group perms,2,0.55,False
+global,Generate cache key,1,0.27,False
+global,Publish Conda package on organization channel,1,0.27,False
+global,Publish Conda package on personal channel,1,0.27,False
+global,Install CUDA ${{ matrix.cuda-version }},1,0.27,False
+global,Set postgresql uid/gid,1,0.27,False
+global,Check for spelling typos,1,0.27,False
+global,Verify clean directory,1,0.27,False
+global,Build Python Wheel,1,0.27,False
+global,Check metadata,1,0.27,False
+global,home-assistant/actions/hassfest,1,0.27,False
+global,Run autogen,1,0.27,False
+global,Configure,1,0.27,False
+global,Set up Gradle build,1,0.27,False
+global,Set ESDB docker repo,1,0.27,False
+global,rickstaa/action-create-tag,1,0.27,False
+global,Generate Project Files,1,0.27,False
+global,Install specified Qt version,1,0.27,False
+global,Install native Qt by package manager,1,0.27,False
+global,Get cache key,1,0.27,False
+global,"Echo ""Sam Cli Version=$(Curl -S Https://Pypi.Org/Pypi/Aws-Sa...",1,0.27,False
+global,Orchestrate Workflow,1,0.27,False
+global,Hassfest validation,1,0.27,False
+global,HACS validation,1,0.27,False
+global,Download,1,0.27,False
+global,Download JSON schema for labels configuration file,1,0.27,False
+global,Sync labels,1,0.27,False
+global,Merge label configuration files,1,0.27,False
+global,Start Services,1,0.27,False
+global,Collect Debug Logs,1,0.27,False
+global,Capture Test Output,1,0.27,False
+global,Log System Output,1,0.27,False
+global,Capture Messages,1,0.27,False
+global,Process Output Files,1,0.27,False
+global,Collect Application Logs,1,0.27,False
+global,Setup prerequisites,1,0.27,False
+global,Collect Service Logs,1,0.27,False
+global,Setup Local Environment,1,0.27,False
+global,Collect Logs,1,0.27,False
+global,Process Support Package,1,0.27,False
+global,support bundle,1,0.27,False
+global,Check Spelling,1,0.27,False
+global,suo/flake8-github-action,1,0.27,False
+global,psf/black,1,0.27,False
+global,REUSE Compliance Check,1,0.27,False
+global,Transform Domain Data,1,0.27,False
+global,Login to Amazon ECR,1,0.27,False
+global,Auto-assign issue,1,0.27,False
+global,Start test infrastructure,1,0.27,False
+global,Pull and restart latest container,1,0.27,False
+global,Create manifest list and push,1,0.27,False
+global,Setup Network Connectivity,1,0.27,False
+global,Test MLB,1,0.27,False
+global,Test NBA,1,0.27,False
+global,Test NHL,1,0.27,False
+global,Test FB,1,0.27,False
+global,Test NCAAF,1,0.27,False
+global,Test NFL,1,0.27,False
+global,Test NCAAB,1,0.27,False
+global,Install Envs,1,0.27,False
+global,Run Example,1,0.27,False
+global,Install needed packages,1,0.27,False
+global,Query dependencies,1,0.27,False
+global,Update Modules and Build,1,0.27,False
+global,Start display server,1,0.27,False
+global,Deploy,1,0.27,False
+global,Configure safe directory for git,1,0.27,False
+global,Run twine check,1,0.27,False
+global,Import the package,1,0.27,False
+global,dorny/paths-filter,1,0.27,False
+global,Read errors,1,0.27,False
+global,Extract latest vanilla sprites,1,0.27,False
+global,toshimaru/auto-author-assign,1,0.27,False
+global,rename,1,0.27,False
+global,Install and run OpenSearch 📦,1,0.27,False
+global,Configure sysctl limits,1,0.27,False
+global,Install and run Elasticsearch 📦,1,0.27,False
+global,Maven Install,1,0.27,False
+global,Maven Tests,1,0.27,False
+global,Sync pyproject.toml/Cargo.toml versions,1,0.27,False
+global,Check version bump,1,0.27,False
+global,udpate heatmap,1,0.27,False
+global,Rename notion.svg to a random name,1,0.27,False
+global,notion heatmap,1,0.27,False
+global,duolingo sync,1,0.27,False
+global,Install yq,1,0.27,False
+global,Start up PostgreSQL in Docker,1,0.27,False
+global,Zip dependencies with long paths,1,0.27,False
+global,Get Module Changes,1,0.27,False
+global,Run testing suite,1,0.27,False
+global,Generate Docker Environment,1,0.27,False
+global,Construct Registry URL,1,0.27,False
+global,Setup Watod Environment,1,0.27,False
+global,Generate GitHub Environment,1,0.27,False
+global,Set up the environment,1,0.27,False
+global,Deploy to Dev Environment,1,0.27,False
+global,Decompile help file into HTML,1,0.27,False
+global,Rename root HTML file,1,0.27,False
+global,Install latest release,1,0.27,False
+global,List install tree,1,0.27,False
+global,Log go env,1,0.27,False
+global,Update version in pyproject.toml,1,0.27,False
+global,${{ (matrix.os == 'windows' && 'dir') || 'ls -lh' }} dist/,1,0.27,False
+global,Rust benchmarks,1,0.27,False
+global,twine check --strict dist/*,1,0.27,False
+global,install rust,1,0.27,False
+global,install rust stable,1,0.27,False
+global,cache rust,1,0.27,False
+global,extract and list sdist file,1,0.27,False
+global,dessant/support-requests,1,0.27,False
+global,Mac Dependencies,1,0.27,False
+global,Build Library,1,0.27,False
+global,amannn/action-semantic-pull-request,1,0.27,False
+global,Terminate Session,1,0.27,False
+global,assignment,1,0.27,False
+global,Add contribution label,1,0.27,False
+global,Run a one-line script,1,0.27,False
+global,Validate,1,0.27,False
+global,Get changed files,1,0.27,False
+global,In the case of misspellings,1,0.27,False
+global,Check links in all markdown files,1,0.27,False
+global,Check spellings,1,0.27,False
+global,Create Coverage Badge,1,0.27,False
+global,Populate installation acceptance test,1,0.27,False
+global,Get Coverage Percentage,1,0.27,False
+global,Echo ${{ Steps.Coverage Percent.Outputs.Prop }},1,0.27,False
+global,./.Github/Actions/Moshi Build,1,0.27,False
+global,Upload conda packages,1,0.27,False
+global,Trigger Deployment,1,0.27,False
+global,Run D'oxygen,1,0.27,False
+global,Run prebuild steps,1,0.27,False
+global,Notification,1,0.27,False
+global,Check Anyfx version,1,0.27,False
+global,Store Deploy folder,1,0.27,False
+global,Doxygen Action,1,0.27,False
+global,Check PhysX version,1,0.27,False
+global,Upload report,1,0.27,False
+global,./.github/actions/start-build,1,0.27,False
+global,NVM & yarn install,1,0.27,False
+global,Setup asv,1,0.27,False
+global,Push benchmarks results to the asv-results branch,1,0.27,False
+global,Setup and build,1,0.27,False
+global,Pull postgresql,1,0.27,False
+global,Push image,1,0.27,False
+global,set global JUCE search paths,1,0.27,False
+global,download JUCE,1,0.27,False
+global,generate makefile,1,0.27,False
+global,check no libQt5Gui.so/libGL.so,1,0.27,False
+global,qmake,1,0.27,False
+global,check libQt5Gui.so/libGL.so,1,0.27,False
+global,qmake NOGUI,1,0.27,False
+global,Run Scraper,1,0.27,False
+global,uv run --no-dev --group nuitka --frozen --python 3.13 python...,1,0.27,False
+global,re-actors/alls-green,1,0.27,False
+global,Mv Config.Toml Proxy Scraper Checker.Dist/,1,0.27,False
+global,Set up ARM GCC,1,0.27,False
+global,Print Current workflow,1,0.27,False
+global,Echo Java Version,1,0.27,False
+global,bencherdev/bencher,1,0.27,False
+global,First Step,1,0.27,False
+global,Display Help Information,1,0.27,False
+global,Merge Benchmark Reports for a dialect,1,0.27,False
+global,Install Bowtie,1,0.27,False
+global,Collect Benchmark Files,1,0.27,False
+global,Generate Benchmark Report,1,0.27,False
+global,Create Benchmarks folder,1,0.27,False
+global,Collect supported dialects,1,0.27,False
+global,Check license header,1,0.27,False
+global,Check Dependencies Licenses,1,0.27,False
+global,"for file in $(find . -name ""*.md""); do",1,0.27,False
+global,Configure Poetry credentials,1,0.27,False
+global,planemo,1,0.27,False
+global,Check outputs,1,0.27,False
+global,Combine outputs,1,0.27,False
+global,Print 🖨️ dependencies,1,0.27,False
+global,tests,1,0.27,False
+global,create symlink stable to new version,1,0.27,False
+global,Restore Nuget Packages,1,0.27,False
+global,Previous jobs failed,1,0.27,False
+global,Set versions,1,0.27,False
+global,Configure Cloudstack v${{ matrix.cloudstack-version }},1,0.27,False
+global,Read LLVM commit,1,0.27,False
+global,define isl 1,1,0.27,False
+global,Tag DryRun with Maven,1,0.27,False
+global,Store Version,1,0.27,False
+global,Tag with Maven,1,0.27,False
+global,Test libftp,1,0.27,False
+global,Test cmdline,1,0.27,False
+global,"echo ""${{ needs.pytester.result }}""",1,0.27,False
+global,failing...,1,0.27,False
+global,cancelled or skipped...,1,0.27,False
+global,Speed eval,1,0.27,False
+global,SebRollen/toml-action,1,0.27,False
+global,Create full image ID and tag with 'develop',1,0.27,False
+global,Tag with version and `latest` - if it's a release,1,0.27,False
+global,Set source ref,1,0.27,False
+global,Setup project with pipenv,1,0.27,False
+global,Get the tag name,1,0.27,False
+global,Prepare to build a Debian source package,1,0.27,False
+global,Conda list,1,0.27,False
+global,Check long_description,1,0.27,False
+global,Restore vcpkg packages,1,0.27,False
+global,Create test reports,1,0.27,False
+global,Set version with Maven,1,0.27,False
+global,Contribute List,1,0.27,False
+global,Build Application,1,0.27,False
+global,Add Homebrew to PATH,1,0.27,False
+global,Move executable file,1,0.27,False
+global,Compress generated EXE,1,0.27,False
+global,Install UPX,1,0.27,False
+global,Prepare files,1,0.27,False
+global,Mv Artifacts/Ytdl-Patched-${{ Env.Windows Icon }}.Exe Artifa...,1,0.27,False
+global,Download some videos,1,0.27,False
+global,Rename file,1,0.27,False
+global,Create buildconfig.py,1,0.27,False
+global,Compress exe files,1,0.27,False
+global,Calculate hash,1,0.27,False
+global,Create comment,1,0.27,False
+global,Comment Evaluation Result of PR with Master,1,0.27,False
+global,Comment Dashboard Website Link on PR,1,0.27,False
+global,Extract Fork Info,1,0.27,False
+global,Setup Env Vars,1,0.27,False
+global,Generate AMLB User Dir - {{ github.event.inputs.module }},1,0.27,False
+global,Clean the all files,1,0.27,False
+global,Create setting.py,1,0.27,False
+global,Determine Release Status,1,0.27,False
+global,call fun extractor,1,0.27,False
+global,Generate logos,1,0.27,False
+global,"Install icclim and dev requirements (dev, test and doc)",1,0.27,False
+global,Make release artifacts,1,0.27,False
+global,CMake Build,1,0.27,False
+global,Get sdk version string,1,0.27,False
+global,Set upload URL,1,0.27,False
+global,Get NDK version,1,0.27,False
+global,Check docker.com credentials,1,0.27,False
+global,DryRuns,1,0.27,False
+global,./.github/actions/upload-coverage,1,0.27,False
+global,./.github/downstream.d/${{ matrix.DOWNSTREAM }}.sh install,1,0.27,False
+global,./.github/downstream.d/${{ matrix.DOWNSTREAM }}.sh run,1,0.27,False
+global,Extract pre-built Android Swappy Frame Pacing Library,1,0.27,False
+global,Generate Godot editor,1,0.27,False
+global,Restore Godot build cache,1,0.27,False
+global,Save Godot build cache,1,0.27,False
+global,Compilation,1,0.27,False
+global,Generate Godot templates,1,0.27,False
+global,Check code lints with Black,1,0.27,False
+global,Deploy to CurseForge,1,0.27,False
+global,Expose keystore,1,0.27,False
+global,Validate Gradle wrapper,1,0.27,False
+global,Unlock keystore,1,0.27,False
+global,Test Examples,1,0.27,False
+global,check ref and event,1,0.27,False
+global,Log Workflow Message,1,0.27,False
+global,Log Toolkit Message,1,0.27,False
+global,Configure Documentation,1,0.27,False
+global,Inspect Repository State,1,0.27,False
+global,Check installation,1,0.27,False
+global,Prepare Build Artifacts,1,0.27,False
+global,Fail on bad translations,1,0.27,False
+global,Enable KVM,1,0.27,False
+global,Check if python changes are present,1,0.27,False
+global,Auto Comment on Issues Closed,1,0.27,False
+global,Auto Comment on Issues Opened,1,0.27,False
+global,Auto Comment on Pull Request Merged,1,0.27,False
+global,Auto Comment on Issues Assigned,1,0.27,False
+global,Auto Comment on Pull Request Opened,1,0.27,False
+global,Check built artifacts,1,0.27,False
+global,join cover and pdf,1,0.27,False
+global,install prince,1,0.27,False
+global,sleep for 30 seconds,1,0.27,False
+global,Validate docstrings,1,0.27,False
+global,Post reports,1,0.27,False
+global,ldconfig,1,0.27,False
+global,Create AVD and generate snapshot for caching,1,0.27,False
+global,Install pipenv,1,0.27,False
+global,Install k6,1,0.27,False
+global,Sonar Scan,1,0.27,False
+global,List all releases,1,0.27,False
+global,Delete all releases,1,0.27,False
+global,Generate Changelog,1,0.27,False
+global,Split Artifacts,1,0.27,False
+global,./.Github/Actions/Setup Tools Shared,1,0.27,False
+global,pip install -r support/python/requirements.txt,1,0.27,False
+global,Determine Version,1,0.27,False
+global,Run schema validation,1,0.27,False
+global,./.Github/Actions/Generate Offset Run Number,1,0.27,False
+global,./.Github/Actions/Upload Esmini Artifacts,1,0.27,False
+global,Set the correct Node version using nvm,1,0.27,False
+global,Run Plugin Verification tasks,1,0.27,False
+global,snapcore/action-build,1,0.27,False
+global,docker manifest push coldfix/certbot-dns-netcup:latest,1,0.27,False
+global,docker manifest create coldfix/certbot-dns-netcup:${{ github...,1,0.27,False
+global,docker manifest create coldfix/certbot-dns-netcup:latest col...,1,0.27,False
+global,docker manifest push coldfix/certbot-dns-netcup:${{ github.r...,1,0.27,False
+global,🚀 Run hassfest validation,1,0.27,False
+global,Test solid2cluster utilities,1,0.27,False
+global,Test illumina2cluster utilities,1,0.27,False
+global,Get branch name,1,0.27,False
+global,drewg13/get-version-action,1,0.27,False
+global,Add Web UI to update,1,0.27,False
+global,Set Variables,1,0.27,False
+global,Add Web UI to remote_setup,1,0.27,False
+global,Add Demo mode files to update,1,0.27,False
+global,Build Firmware,1,0.27,False
+global,Publish Artifacts,1,0.27,False
+global,Add commit hash to artifact,1,0.27,False
+global,Publish to GitHub Packages,1,0.27,False
+global,Publish to BoS Repo,1,0.27,False
+global,actions/add-to-project,1,0.27,False
+global,Sign Editor,1,0.27,False
+global,Environment,1,0.27,False
+global,Prepare Sentry packages for release,1,0.27,False
+global,Download CLI,1,0.27,False
+global,Free disk space,1,0.27,False
+global,Publish metric on X-Ray Java SDK distribution availability,1,0.27,False
+global,Setup sing-box,1,0.27,False
+global,Update Repository,1,0.27,False
+global,BuildDebug,1,0.27,False
+global,Set env,1,0.27,False
+global,Retrieve Dependency Metadata,1,0.27,False
+global,RemoveBuildDir,1,0.27,False
+global,BuildRelease,1,0.27,False
+global,Cleanup,1,0.27,False
+global,Post to GitHub,1,0.27,False
+global,geode-sdk/build-geode-mod/combine,1,0.27,False
+global,Does it run (PE)?,1,0.27,False
+global,Does it run (ELF)?,1,0.27,False
+global,Run capa,1,0.27,False
+global,Zip ${{ matrix.artifact_name }} into ${{ env.zip_name }},1,0.27,False
+global,Does it run (Shellcode)?,1,0.27,False
+global,Does it run (CAPE)?,1,0.27,False
+global,Test Api,1,0.27,False
+global,Run Domain Sum Up script (domains_all.lst),1,0.27,False
+global,Run Community Resolver script (ip_community.lst),1,0.27,False
+global,Run OONI Resolver script (ooni_ips.lst),1,0.27,False
+global,Run IP Sum (Temp) script (ips_all.lst),1,0.27,False
+global,Run IP Sum + ASN (Final) script (ipsum.lst),1,0.27,False
+global,Verify Release,1,0.27,False
+global,Run OONI Parser (ooni_domains.lst),1,0.27,False
+global,Run Bird2 Converter script,1,0.27,False
+global,Information,1,0.27,False
+global,"echo ""Fingerprint changed but no copied sources changed""",1,0.27,False
+global,"echo ""Copied sources changed but fingerprint not updated""",1,0.27,False
+global,Check fingerprint changed,1,0.27,False
+global,Check type description sources changed,1,0.27,False
+global,Extract Dependency Metadata,1,0.27,False
+global,Print workflow information,1,0.27,False
+global,Copy version file to the webserver,1,0.27,False
+global,Set build configuration,1,0.27,False
+global,Install argparse,1,0.27,False
+global,Where am I,1,0.27,False
+global,Download clang-format-diff.py,1,0.27,False
+global,Check scripts formatting,1,0.27,False
+global,Formatting issues,1,0.27,False
+global,Install GWT,1,0.27,False
+global,Deploy to lactame.com,1,0.27,False
+global,Upload to Code Climate,1,0.27,False
+global,Create local branch for diff-quality for PRs,1,0.27,False
+global,Pull Container,1,0.27,False
+global,Record the path of wheel distribution,1,0.27,False
+global,Validate CITATION.cff,1,0.27,False
+global,Version Info,1,0.27,False
+global,Fastlane build and upload,1,0.27,False
+global,Restore json key,1,0.27,False
+global,Restore keystore,1,0.27,False
+global,Set UID,1,0.27,False
+global,Kill java processes,1,0.27,False
+global,Free Disk Space,1,0.27,False
+global,Run examples,1,0.27,False
+global,Set up CI environment,1,0.27,False
+global,dessant/lock-threads,1,0.27,False
+global,Update Schema and Settings,1,0.27,False
+global,Install CUDA,1,0.27,False
+global,./.github/actions/upload-s3,1,0.27,False
+global,Install CuDNN,1,0.27,False
+global,validation,1,0.27,False
+global,Extract OS name,1,0.27,False
+global,Test,1,0.27,False
+global,Disable core dumping and piping due to slowness,1,0.27,False
+global,Install git,1,0.27,False
+global,Dependencies,1,0.27,False
+global,Require all successes,1,0.27,False
+global,Tox Python Information,1,0.27,False
+global,System Python Information,1,0.27,False
+global,korli/action,1,0.27,False
+c++,Checkout Repository,71,89.87,True
+c++,Build Project,41,51.9,True
+c++,Install Project Dependencies,34,43.04,True
+c++,Setup Runtime Environment,28,35.44,True
+c++,Build Source Code,26,32.91,True
+c++,Setup Build Environment,24,30.38,True
+c++,Upload Build Artifacts,23,29.11,True
+c++,Execute Tests,20,25.32,True
+c++,Manage Build Cache,16,20.25,True
+c++,Download Build Artifacts,10,12.66,True
+c++,Run Static Analysis,9,11.39,True
+c++,Export Environment Configuration,8,10.13,True
+c++,Configure Build Profile,8,10.13,True
+c++,Generate Version Metadata,6,7.59,True
+c++,Publish Release,6,7.59,True
+c++,Install External Tool,5,6.33,True
+c++,Deploy Documentation,4,5.06,True
+c++,Configure Cloud Resources,4,5.06,True
+c++,Clean Project Artifacts,3,3.8,False
+c++,Deploy Application,3,3.8,False
+c++,Download External Resources,2,2.53,False
+c++,Publish Package,2,2.53,False
+c++,Execute Automation Script,2,2.53,False
+c++,Manage Labels,2,2.53,False
+c++,Verify Build Integrity,2,2.53,False
+c++,Build Container Image,2,2.53,False
+c++,Ros-Industrial/Industrial Ci,2,2.53,False
+c++,Build Documentation,2,2.53,False
+c++,Publish Release Assets,2,2.53,False
+c++,DenverCoder1/doxygen-github-pages-action,2,2.53,False
+c++,Inspect Runtime Environment,2,2.53,False
+c++,Publish Conda package on organization channel,1,1.27,False
+c++,Free Disk Space (Ubuntu),1,1.27,False
+c++,Publish Conda package on personal channel,1,1.27,False
+c++,Install CUDA ${{ matrix.cuda-version }},1,1.27,False
+c++,Verify clean directory,1,1.27,False
+c++,Build Python Wheel,1,1.27,False
+c++,Check metadata,1,1.27,False
+c++,Run autogen,1,1.27,False
+c++,Configure,1,1.27,False
+c++,Generate Project Files,1,1.27,False
+c++,Install specified Qt version,1,1.27,False
+c++,Install native Qt by package manager,1,1.27,False
+c++,Get cache key,1,1.27,False
+c++,Download,1,1.27,False
+c++,Download JSON schema for labels configuration file,1,1.27,False
+c++,Sync labels,1,1.27,False
+c++,Merge label configuration files,1,1.27,False
+c++,REUSE Compliance Check,1,1.27,False
+c++,Transform Domain Data,1,1.27,False
+c++,Auto-assign issue,1,1.27,False
+c++,Update Modules and Build,1,1.27,False
+c++,Start display server,1,1.27,False
+c++,Deploy,1,1.27,False
+c++,Configure safe directory for git,1,1.27,False
+c++,Sync pyproject.toml/Cargo.toml versions,1,1.27,False
+c++,Check version bump,1,1.27,False
+c++,Build Package,1,1.27,False
+c++,Get Module Changes,1,1.27,False
+c++,Run testing suite,1,1.27,False
+c++,Generate Docker Environment,1,1.27,False
+c++,Construct Registry URL,1,1.27,False
+c++,Setup Watod Environment,1,1.27,False
+c++,Generate GitHub Environment,1,1.27,False
+c++,Decompile help file into HTML,1,1.27,False
+c++,Rename root HTML file,1,1.27,False
+c++,Install latest release,1,1.27,False
+c++,List install tree,1,1.27,False
+c++,dessant/support-requests,1,1.27,False
+c++,Mac Dependencies,1,1.27,False
+c++,assignment,1,1.27,False
+c++,Add contribution label,1,1.27,False
+c++,Validate,1,1.27,False
+c++,Run D'oxygen,1,1.27,False
+c++,Run prebuild steps,1,1.27,False
+c++,Notification,1,1.27,False
+c++,Check Anyfx version,1,1.27,False
+c++,Store Deploy folder,1,1.27,False
+c++,Doxygen Action,1,1.27,False
+c++,Check PhysX version,1,1.27,False
+c++,set global JUCE search paths,1,1.27,False
+c++,download JUCE,1,1.27,False
+c++,generate makefile,1,1.27,False
+c++,check no libQt5Gui.so/libGL.so,1,1.27,False
+c++,qmake,1,1.27,False
+c++,check libQt5Gui.so/libGL.so,1,1.27,False
+c++,qmake NOGUI,1,1.27,False
+c++,Set up ARM GCC,1,1.27,False
+c++,tests,1,1.27,False
+c++,Generate Test Coverage,1,1.27,False
+c++,Restore Nuget Packages,1,1.27,False
+c++,Read LLVM commit,1,1.27,False
+c++,define isl 1,1,1.27,False
+c++,Execute Benchmarks,1,1.27,False
+c++,Test libftp,1,1.27,False
+c++,Test cmdline,1,1.27,False
+c++,Restore vcpkg packages,1,1.27,False
+c++,Perform Security Analysis,1,1.27,False
+c++,Initialize Security Analysis,1,1.27,False
+c++,Make release artifacts,1,1.27,False
+c++,CMake Build,1,1.27,False
+c++,Get sdk version string,1,1.27,False
+c++,Set upload URL,1,1.27,False
+c++,Get NDK version,1,1.27,False
+c++,DryRuns,1,1.27,False
+c++,Extract pre-built Android Swappy Frame Pacing Library,1,1.27,False
+c++,Generate Godot editor,1,1.27,False
+c++,Restore Godot build cache,1,1.27,False
+c++,Save Godot build cache,1,1.27,False
+c++,Compilation,1,1.27,False
+c++,Generate Godot templates,1,1.27,False
+c++,Log Workflow Message,1,1.27,False
+c++,Log Toolkit Message,1,1.27,False
+c++,Configure Documentation,1,1.27,False
+c++,Inspect Repository State,1,1.27,False
+c++,Check installation,1,1.27,False
+c++,Prepare Build Artifacts,1,1.27,False
+c++,ldconfig,1,1.27,False
+c++,./.Github/Actions/Setup Tools Shared,1,1.27,False
+c++,pip install -r support/python/requirements.txt,1,1.27,False
+c++,Determine Version,1,1.27,False
+c++,Run schema validation,1,1.27,False
+c++,./.Github/Actions/Generate Offset Run Number,1,1.27,False
+c++,./.Github/Actions/Upload Esmini Artifacts,1,1.27,False
+c++,Manage Workflow Automation,1,1.27,False
+c++,drewg13/get-version-action,1,1.27,False
+c++,Add Web UI to update,1,1.27,False
+c++,fkirc/skip-duplicate-actions,1,1.27,False
+c++,Set Variables,1,1.27,False
+c++,Add Web UI to remote_setup,1,1.27,False
+c++,Add Demo mode files to update,1,1.27,False
+c++,Build Firmware,1,1.27,False
+c++,Sign Editor,1,1.27,False
+c++,Environment,1,1.27,False
+c++,Prepare Sentry packages for release,1,1.27,False
+c++,Download CLI,1,1.27,False
+c++,Free disk space,1,1.27,False
+c++,Update Repository,1,1.27,False
+c++,BuildDebug,1,1.27,False
+c++,Set env,1,1.27,False
+c++,Retrieve Dependency Metadata,1,1.27,False
+c++,RemoveBuildDir,1,1.27,False
+c++,BuildRelease,1,1.27,False
+c++,Cleanup,1,1.27,False
+c++,geode-sdk/build-geode-mod/combine,1,1.27,False
+c++,"echo ""Fingerprint changed but no copied sources changed""",1,1.27,False
+c++,"echo ""Copied sources changed but fingerprint not updated""",1,1.27,False
+c++,Check fingerprint changed,1,1.27,False
+c++,Check type description sources changed,1,1.27,False
+c++,Set build configuration,1,1.27,False
+c++,Install argparse,1,1.27,False
+c++,Where am I,1,1.27,False
+c++,Download clang-format-diff.py,1,1.27,False
+c++,Check scripts formatting,1,1.27,False
+c++,Formatting issues,1,1.27,False
+c++,Enable KVM group perms,1,1.27,False
+c++,Kill java processes,1,1.27,False
+c++,Free Disk Space,1,1.27,False
+c++,dessant/lock-threads,1,1.27,False
+c++,Install CUDA,1,1.27,False
+c++,./.github/actions/upload-s3,1,1.27,False
+c++,Install CuDNN,1,1.27,False
+c++,Disable core dumping and piping due to slowness,1,1.27,False
+c++,Install git,1,1.27,False
+c++,Dependencies,1,1.27,False
+c++,korli/action,1,1.27,False
+java,Checkout Repository,64,88.89,True
+java,Setup Runtime Environment,57,79.17,True
+java,Build Project,49,68.06,True
+java,Manage Build Cache,17,23.61,True
+java,Upload Build Artifacts,17,23.61,True
+java,Execute Tests,16,22.22,True
+java,Run Static Analysis,8,11.11,True
+java,Verify Build Integrity,8,11.11,True
+java,Perform Security Analysis,6,8.33,True
+java,Publish Release,6,8.33,True
+java,Generate Version Metadata,6,8.33,True
+java,Configure Build Profile,5,6.94,True
+java,Initialize Security Analysis,5,6.94,True
+java,Setup Build Environment,5,6.94,True
+java,Install Project Dependencies,5,6.94,True
+java,Publish Package,5,6.94,True
+java,Download Build Artifacts,4,5.56,True
+java,Generate Test Coverage,4,5.56,True
+java,Configure Secure Access,3,4.17,False
+java,Export Environment Configuration,3,4.17,False
+java,Configure Cloud Resources,3,4.17,False
+java,Build Container Image,2,2.78,False
+java,Clean Project Artifacts,2,2.78,False
+java,Inspect Runtime Environment,2,2.78,False
+java,Execute Automation Script,2,2.78,False
+java,Send Notification,2,2.78,False
+java,gradle/actions/wrapper-validation,2,2.78,False
+java,Manage Workflow Automation,2,2.78,False
+java,Generate cache key,1,1.39,False
+java,Set up Gradle build,1,1.39,False
+java,Set ESDB docker repo,1,1.39,False
+java,Start Services,1,1.39,False
+java,Collect Debug Logs,1,1.39,False
+java,Capture Test Output,1,1.39,False
+java,Log System Output,1,1.39,False
+java,Capture Messages,1,1.39,False
+java,Process Output Files,1,1.39,False
+java,Collect Application Logs,1,1.39,False
+java,Setup prerequisites,1,1.39,False
+java,Collect Service Logs,1,1.39,False
+java,Setup Local Environment,1,1.39,False
+java,Collect Logs,1,1.39,False
+java,Process Support Package,1,1.39,False
+java,support bundle,1,1.39,False
+java,Check Spelling,1,1.39,False
+java,Validate Outputs,1,1.39,False
+java,Setup Base Environment,1,1.39,False
+java,Read errors,1,1.39,False
+java,Extract latest vanilla sprites,1,1.39,False
+java,Maven Install,1,1.39,False
+java,Maven Tests,1,1.39,False
+java,Start up PostgreSQL in Docker,1,1.39,False
+java,Deploy Application,1,1.39,False
+java,Print Current workflow,1,1.39,False
+java,Echo Java Version,1,1.39,False
+java,First Step,1,1.39,False
+java,Check license header,1,1.39,False
+java,Check Dependencies Licenses,1,1.39,False
+java,"for file in $(find . -name ""*.md""); do",1,1.39,False
+java,Build Package,1,1.39,False
+java,Upload Coverage,1,1.39,False
+java,Tag DryRun with Maven,1,1.39,False
+java,Store Version,1,1.39,False
+java,Tag with Maven,1,1.39,False
+java,Create test reports,1,1.39,False
+java,Set version with Maven,1,1.39,False
+java,Build Application,1,1.39,False
+java,Deploy to CurseForge,1,1.39,False
+java,Expose keystore,1,1.39,False
+java,Validate Gradle wrapper,1,1.39,False
+java,Deploy Documentation,1,1.39,False
+java,Publish Release Assets,1,1.39,False
+java,Unlock keystore,1,1.39,False
+java,Fail on bad translations,1,1.39,False
+java,Enable KVM,1,1.39,False
+java,Enable KVM group perms,1,1.39,False
+java,Create AVD and generate snapshot for caching,1,1.39,False
+java,Sonar Scan,1,1.39,False
+java,Split Artifacts,1,1.39,False
+java,Run Plugin Verification tasks,1,1.39,False
+java,Build Source Code,1,1.39,False
+java,Publish Artifacts,1,1.39,False
+java,Download External Resources,1,1.39,False
+java,Add commit hash to artifact,1,1.39,False
+java,Publish to GitHub Packages,1,1.39,False
+java,Publish to BoS Repo,1,1.39,False
+java,actions/add-to-project,1,1.39,False
+java,Publish metric on X-Ray Java SDK distribution availability,1,1.39,False
+java,Information,1,1.39,False
+java,Extract Dependency Metadata,1,1.39,False
+java,Print workflow information,1,1.39,False
+java,Install GWT,1,1.39,False
+java,Deploy to lactame.com,1,1.39,False
+java,Version Info,1,1.39,False
+java,Fastlane build and upload,1,1.39,False
+java,Restore json key,1,1.39,False
+java,Restore keystore,1,1.39,False
+java,Set up CI environment,1,1.39,False
+python,Checkout Repository,199,92.99,True
+python,Setup Runtime Environment,133,62.15,True
+python,Install Project Dependencies,119,55.61,True
+python,Build Project,74,34.58,True
+python,Upload Build Artifacts,59,27.57,True
+python,Execute Tests,55,25.7,True
+python,Run Static Analysis,33,15.42,True
+python,Perform Security Analysis,23,10.75,True
+python,Initialize Security Analysis,23,10.75,True
+python,Configure Build Profile,22,10.28,True
+python,Download Build Artifacts,22,10.28,True
+python,Configure Cloud Resources,21,9.81,True
+python,Publish Package,20,9.35,True
+python,Generate Test Coverage,18,8.41,True
+python,Upload Coverage,17,7.94,True
+python,Build Package,17,7.94,True
+python,Export Environment Configuration,15,7.01,True
+python,Publish Release,15,7.01,True
+python,Setup Build Environment,14,6.54,True
+python,Manage Build Cache,14,6.54,True
+python,Inspect Runtime Environment,14,6.54,True
+python,Generate Version Metadata,13,6.07,True
+python,Build Documentation,11,5.14,True
+python,Deploy Application,10,4.67,False
+python,Deploy Documentation,10,4.67,False
+python,Publish Release Assets,7,3.27,False
+python,Clean Project Artifacts,7,3.27,False
+python,Manage Workflow Automation,7,3.27,False
+python,Execute Benchmarks,5,2.34,False
+python,Download External Resources,5,2.34,False
+python,Send Notification,4,1.87,False
+python,Verify Build Integrity,4,1.87,False
+python,Switch Git Reference,3,1.4,False
+python,Build Container Image,3,1.4,False
+python,HACS Action,2,0.93,False
+python,Execute Script,2,0.93,False
+python,validate codemeta,2,0.93,False
+python,Run script,2,0.93,False
+python,Build Static Site,2,0.93,False
+python,Decide whether the needed jobs succeeded or failed,2,0.93,False
+python,twine check dist/*,2,0.93,False
+python,Validate Outputs,2,0.93,False
+python,Free Disk Space (Ubuntu),2,0.93,False
+python,Set postgresql uid/gid,1,0.47,False
+python,Check for spelling typos,1,0.47,False
+python,home-assistant/actions/hassfest,1,0.47,False
+python,rickstaa/action-create-tag,1,0.47,False
+python,"Echo ""Sam Cli Version=$(Curl -S Https://Pypi.Org/Pypi/Aws-Sa...",1,0.47,False
+python,Orchestrate Workflow,1,0.47,False
+python,Hassfest validation,1,0.47,False
+python,HACS validation,1,0.47,False
+python,suo/flake8-github-action,1,0.47,False
+python,psf/black,1,0.47,False
+python,Login to Amazon ECR,1,0.47,False
+python,Start test infrastructure,1,0.47,False
+python,Pull and restart latest container,1,0.47,False
+python,Create manifest list and push,1,0.47,False
+python,Setup Network Connectivity,1,0.47,False
+python,Test MLB,1,0.47,False
+python,Test NBA,1,0.47,False
+python,Test NHL,1,0.47,False
+python,Test FB,1,0.47,False
+python,Test NCAAF,1,0.47,False
+python,Test NFL,1,0.47,False
+python,Test NCAAB,1,0.47,False
+python,Install Envs,1,0.47,False
+python,Run Example,1,0.47,False
+python,Install needed packages,1,0.47,False
+python,Query dependencies,1,0.47,False
+python,Run twine check,1,0.47,False
+python,Import the package,1,0.47,False
+python,dorny/paths-filter,1,0.47,False
+python,toshimaru/auto-author-assign,1,0.47,False
+python,rename,1,0.47,False
+python,Install and run OpenSearch 📦,1,0.47,False
+python,Configure sysctl limits,1,0.47,False
+python,Install and run Elasticsearch 📦,1,0.47,False
+python,udpate heatmap,1,0.47,False
+python,Rename notion.svg to a random name,1,0.47,False
+python,notion heatmap,1,0.47,False
+python,duolingo sync,1,0.47,False
+python,Install yq,1,0.47,False
+python,Zip dependencies with long paths,1,0.47,False
+python,Set up the environment,1,0.47,False
+python,Deploy to Dev Environment,1,0.47,False
+python,Log go env,1,0.47,False
+python,Update version in pyproject.toml,1,0.47,False
+python,${{ (matrix.os == 'windows' && 'dir') || 'ls -lh' }} dist/,1,0.47,False
+python,Rust benchmarks,1,0.47,False
+python,twine check --strict dist/*,1,0.47,False
+python,install rust,1,0.47,False
+python,install rust stable,1,0.47,False
+python,cache rust,1,0.47,False
+python,extract and list sdist file,1,0.47,False
+python,Build Library,1,0.47,False
+python,amannn/action-semantic-pull-request,1,0.47,False
+python,Terminate Session,1,0.47,False
+python,Run a one-line script,1,0.47,False
+python,Get changed files,1,0.47,False
+python,In the case of misspellings,1,0.47,False
+python,Check links in all markdown files,1,0.47,False
+python,Check spellings,1,0.47,False
+python,Create Coverage Badge,1,0.47,False
+python,Populate installation acceptance test,1,0.47,False
+python,Get Coverage Percentage,1,0.47,False
+python,Echo ${{ Steps.Coverage Percent.Outputs.Prop }},1,0.47,False
+python,./.Github/Actions/Moshi Build,1,0.47,False
+python,Upload conda packages,1,0.47,False
+python,Trigger Deployment,1,0.47,False
+python,Upload report,1,0.47,False
+python,./.github/actions/start-build,1,0.47,False
+python,NVM & yarn install,1,0.47,False
+python,Setup asv,1,0.47,False
+python,Push benchmarks results to the asv-results branch,1,0.47,False
+python,Setup and build,1,0.47,False
+python,Pull postgresql,1,0.47,False
+python,Push image,1,0.47,False
+python,Run Scraper,1,0.47,False
+python,uv run --no-dev --group nuitka --frozen --python 3.13 python...,1,0.47,False
+python,re-actors/alls-green,1,0.47,False
+python,Mv Config.Toml Proxy Scraper Checker.Dist/,1,0.47,False
+python,bencherdev/bencher,1,0.47,False
+python,Display Help Information,1,0.47,False
+python,Merge Benchmark Reports for a dialect,1,0.47,False
+python,Install Bowtie,1,0.47,False
+python,Collect Benchmark Files,1,0.47,False
+python,Generate Benchmark Report,1,0.47,False
+python,Create Benchmarks folder,1,0.47,False
+python,Collect supported dialects,1,0.47,False
+python,Configure Poetry credentials,1,0.47,False
+python,planemo,1,0.47,False
+python,Check outputs,1,0.47,False
+python,Combine outputs,1,0.47,False
+python,Print 🖨️ dependencies,1,0.47,False
+python,create symlink stable to new version,1,0.47,False
+python,Previous jobs failed,1,0.47,False
+python,Set versions,1,0.47,False
+python,Configure Cloudstack v${{ matrix.cloudstack-version }},1,0.47,False
+python,"echo ""${{ needs.pytester.result }}""",1,0.47,False
+python,failing...,1,0.47,False
+python,cancelled or skipped...,1,0.47,False
+python,Speed eval,1,0.47,False
+python,SebRollen/toml-action,1,0.47,False
+python,Create full image ID and tag with 'develop',1,0.47,False
+python,Tag with version and `latest` - if it's a release,1,0.47,False
+python,Set source ref,1,0.47,False
+python,Setup project with pipenv,1,0.47,False
+python,Get the tag name,1,0.47,False
+python,Prepare to build a Debian source package,1,0.47,False
+python,Conda list,1,0.47,False
+python,fkirc/skip-duplicate-actions,1,0.47,False
+python,Check long_description,1,0.47,False
+python,Contribute List,1,0.47,False
+python,Add Homebrew to PATH,1,0.47,False
+python,Move executable file,1,0.47,False
+python,Compress generated EXE,1,0.47,False
+python,Install UPX,1,0.47,False
+python,Prepare files,1,0.47,False
+python,Mv Artifacts/Ytdl-Patched-${{ Env.Windows Icon }}.Exe Artifa...,1,0.47,False
+python,Download some videos,1,0.47,False
+python,Rename file,1,0.47,False
+python,Create buildconfig.py,1,0.47,False
+python,Compress exe files,1,0.47,False
+python,Calculate hash,1,0.47,False
+python,Create comment,1,0.47,False
+python,Comment Evaluation Result of PR with Master,1,0.47,False
+python,Comment Dashboard Website Link on PR,1,0.47,False
+python,Extract Fork Info,1,0.47,False
+python,Setup Env Vars,1,0.47,False
+python,Generate AMLB User Dir - {{ github.event.inputs.module }},1,0.47,False
+python,Clean the all files,1,0.47,False
+python,Create setting.py,1,0.47,False
+python,Determine Release Status,1,0.47,False
+python,Setup Base Environment,1,0.47,False
+python,call fun extractor,1,0.47,False
+python,Generate logos,1,0.47,False
+python,"Install icclim and dev requirements (dev, test and doc)",1,0.47,False
+python,Check docker.com credentials,1,0.47,False
+python,./.github/actions/upload-coverage,1,0.47,False
+python,./.github/downstream.d/${{ matrix.DOWNSTREAM }}.sh install,1,0.47,False
+python,./.github/downstream.d/${{ matrix.DOWNSTREAM }}.sh run,1,0.47,False
+python,Check code lints with Black,1,0.47,False
+python,Test Examples,1,0.47,False
+python,check ref and event,1,0.47,False
+python,Check if python changes are present,1,0.47,False
+python,Auto Comment on Issues Closed,1,0.47,False
+python,Auto Comment on Issues Opened,1,0.47,False
+python,Auto Comment on Pull Request Merged,1,0.47,False
+python,Auto Comment on Issues Assigned,1,0.47,False
+python,Auto Comment on Pull Request Opened,1,0.47,False
+python,Check built artifacts,1,0.47,False
+python,join cover and pdf,1,0.47,False
+python,install prince,1,0.47,False
+python,sleep for 30 seconds,1,0.47,False
+python,Validate docstrings,1,0.47,False
+python,Post reports,1,0.47,False
+python,Manage Labels,1,0.47,False
+python,Install pipenv,1,0.47,False
+python,Install k6,1,0.47,False
+python,List all releases,1,0.47,False
+python,Delete all releases,1,0.47,False
+python,Generate Changelog,1,0.47,False
+python,Set the correct Node version using nvm,1,0.47,False
+python,snapcore/action-build,1,0.47,False
+python,docker manifest push coldfix/certbot-dns-netcup:latest,1,0.47,False
+python,docker manifest create coldfix/certbot-dns-netcup:${{ github...,1,0.47,False
+python,docker manifest create coldfix/certbot-dns-netcup:latest col...,1,0.47,False
+python,docker manifest push coldfix/certbot-dns-netcup:${{ github.r...,1,0.47,False
+python,🚀 Run hassfest validation,1,0.47,False
+python,Test solid2cluster utilities,1,0.47,False
+python,Test illumina2cluster utilities,1,0.47,False
+python,Get branch name,1,0.47,False
+python,Build Source Code,1,0.47,False
+python,Setup sing-box,1,0.47,False
+python,Post to GitHub,1,0.47,False
+python,Does it run (PE)?,1,0.47,False
+python,Does it run (ELF)?,1,0.47,False
+python,Run capa,1,0.47,False
+python,Zip ${{ matrix.artifact_name }} into ${{ env.zip_name }},1,0.47,False
+python,Does it run (Shellcode)?,1,0.47,False
+python,Does it run (CAPE)?,1,0.47,False
+python,Test Api,1,0.47,False
+python,Run Domain Sum Up script (domains_all.lst),1,0.47,False
+python,Run Community Resolver script (ip_community.lst),1,0.47,False
+python,Run OONI Resolver script (ooni_ips.lst),1,0.47,False
+python,Run IP Sum (Temp) script (ips_all.lst),1,0.47,False
+python,Run IP Sum + ASN (Final) script (ipsum.lst),1,0.47,False
+python,Verify Release,1,0.47,False
+python,Run OONI Parser (ooni_domains.lst),1,0.47,False
+python,Run Bird2 Converter script,1,0.47,False
+python,Copy version file to the webserver,1,0.47,False
+python,Upload to Code Climate,1,0.47,False
+python,Create local branch for diff-quality for PRs,1,0.47,False
+python,Pull Container,1,0.47,False
+python,Record the path of wheel distribution,1,0.47,False
+python,Validate CITATION.cff,1,0.47,False
+python,Set UID,1,0.47,False
+python,Run examples,1,0.47,False
+python,Update Schema and Settings,1,0.47,False
+python,validation,1,0.47,False
+python,Extract OS name,1,0.47,False
+python,Test,1,0.47,False
+python,Require all successes,1,0.47,False
+python,Tox Python Information,1,0.47,False
+python,System Python Information,1,0.47,False

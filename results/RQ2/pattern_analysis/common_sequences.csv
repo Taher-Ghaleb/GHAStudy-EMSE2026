@@ -1,0 +1,4 @@
+﻿scope,sequence_id,count,percentage,sequence_length
+global,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,19,5.21,4
+java,Checkout Repository → Setup Runtime Environment → Build Project,7,9.72,3
+python,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,17,7.94,4

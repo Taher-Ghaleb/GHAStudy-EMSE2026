@@ -1,0 +1,241 @@
+﻿scope,position,n,ngram,count,percentage
+global,prefix,2,Checkout Repository → Setup Runtime Environment,153,41.92
+global,prefix,2,Checkout Repository → Initialize Security Analysis,23,6.3
+global,prefix,2,Checkout Repository → Install Project Dependencies,19,5.21
+global,prefix,2,Checkout Repository → Setup Build Environment,14,3.84
+global,prefix,2,Checkout Repository → Build Project,9,2.47
+global,prefix,2,Checkout Repository → Manage Build Cache,8,2.19
+global,prefix,2,Checkout Repository → Configure Cloud Resources,7,1.92
+global,prefix,2,Checkout Repository → Export Environment Configuration,6,1.64
+global,prefix,2,Checkout Repository → Generate Version Metadata,4,1.1
+global,prefix,2,Setup Runtime Environment → Checkout Repository,4,1.1
+c++,prefix,2,Checkout Repository → Setup Runtime Environment,11,13.92
+c++,prefix,2,Checkout Repository → Install Project Dependencies,11,13.92
+c++,prefix,2,Checkout Repository → Setup Build Environment,10,12.66
+c++,prefix,2,Checkout Repository → Build Project,5,6.33
+c++,prefix,2,Checkout Repository → Manage Build Cache,4,5.06
+c++,prefix,2,Checkout Repository → Run Static Analysis,2,2.53
+c++,prefix,2,Checkout Repository → Build Source Code,2,2.53
+c++,prefix,2,Install External Tool → Checkout Repository,2,2.53
+c++,prefix,2,Checkout Repository → Get cache key,1,1.27
+c++,prefix,2,Checkout Repository → Download JSON schema for labels configuration file,1,1.27
+java,prefix,2,Checkout Repository → Setup Runtime Environment,37,51.39
+java,prefix,2,Checkout Repository → Verify Build Integrity,3,4.17
+java,prefix,2,Checkout Repository → Initialize Security Analysis,2,2.78
+java,prefix,2,Setup Runtime Environment → Checkout Repository,2,2.78
+java,prefix,2,Checkout Repository → Publish Release,2,2.78
+java,prefix,2,Checkout Repository → Manage Build Cache,2,2.78
+java,prefix,2,Checkout Repository → Run Static Analysis,2,2.78
+java,prefix,2,Checkout Repository → Download Build Artifacts,1,1.39
+java,prefix,2,Checkout Repository → Print Current workflow,1,1.39
+java,prefix,2,Checkout Repository → Check license header,1,1.39
+python,prefix,2,Checkout Repository → Setup Runtime Environment,105,49.07
+python,prefix,2,Checkout Repository → Initialize Security Analysis,20,9.35
+python,prefix,2,Checkout Repository → Install Project Dependencies,8,3.74
+python,prefix,2,Checkout Repository → Export Environment Configuration,6,2.8
+python,prefix,2,Checkout Repository → Configure Cloud Resources,5,2.34
+python,prefix,2,Checkout Repository → Switch Git Reference,3,1.4
+python,prefix,2,Checkout Repository → Setup Build Environment,3,1.4
+python,prefix,2,Checkout Repository → Build Project,3,1.4
+python,prefix,2,Checkout Repository → Generate Version Metadata,2,0.93
+python,prefix,2,Checkout Repository → validate codemeta,2,0.93
+global,suffix,2,Build Project → Perform Security Analysis,25,6.85
+global,suffix,2,Setup Runtime Environment → Build Project,12,3.29
+global,suffix,2,Build Project → Upload Build Artifacts,10,2.74
+global,suffix,2,Install Project Dependencies → Execute Tests,9,2.47
+global,suffix,2,Install Project Dependencies → Run Static Analysis,7,1.92
+global,suffix,2,Build Project → Execute Tests,6,1.64
+global,suffix,2,Upload Build Artifacts → Deploy Application,6,1.64
+global,suffix,2,Generate Test Coverage → Upload Coverage,5,1.37
+global,suffix,2,Run Static Analysis → Execute Tests,5,1.37
+global,suffix,2,Download Build Artifacts → Publish Package,4,1.1
+c++,suffix,2,Build Project → Execute Tests,3,3.8
+c++,suffix,2,Build Project → Deploy Documentation,2,2.53
+c++,suffix,2,Setup Build Environment → Build Project,2,2.53
+c++,suffix,2,Build Project → Upload Build Artifacts,2,2.53
+c++,suffix,2,Run Static Analysis → Build Source Code,2,2.53
+c++,suffix,2,Publish Conda package on organization channel → Publish Conda package on personal channel,1,1.27
+c++,suffix,2,Download Build Artifacts → Publish Package,1,1.27
+c++,suffix,2,Build Source Code → Execute Automation Script,1,1.27
+c++,suffix,2,Download Build Artifacts → Install External Tool,1,1.27
+c++,suffix,2,Manage Labels → Sync labels,1,1.27
+java,suffix,2,Setup Runtime Environment → Build Project,9,12.5
+java,suffix,2,Build Project → Perform Security Analysis,5,6.94
+java,suffix,2,Build Project → Upload Build Artifacts,4,5.56
+java,suffix,2,Manage Build Cache → Build Project,2,2.78
+java,suffix,2,Execute Tests → Generate Test Coverage,2,2.78
+java,suffix,2,Configure Cloud Resources → Upload Build Artifacts,2,2.78
+java,suffix,2,Build Project → Execute Tests,1,1.39
+java,suffix,2,Download Build Artifacts → Build Project,1,1.39
+java,suffix,2,Configure Build Profile → Upload Build Artifacts,1,1.39
+java,suffix,2,Build Container Image → Start Services,1,1.39
+python,suffix,2,Build Project → Perform Security Analysis,19,8.88
+python,suffix,2,Install Project Dependencies → Execute Tests,9,4.21
+python,suffix,2,Install Project Dependencies → Run Static Analysis,6,2.8
+python,suffix,2,Generate Test Coverage → Upload Coverage,5,2.34
+python,suffix,2,Run Static Analysis → Execute Tests,5,2.34
+python,suffix,2,Upload Build Artifacts → Deploy Application,5,2.34
+python,suffix,2,Initialize Security Analysis → Perform Security Analysis,4,1.87
+python,suffix,2,Build Project → Upload Build Artifacts,4,1.87
+python,suffix,2,Build Project → Publish Package,4,1.87
+python,suffix,2,Execute Tests → Upload Coverage,4,1.87
+global,prefix,3,Checkout Repository → Setup Runtime Environment → Install Project Dependencies,83,22.74
+global,prefix,3,Checkout Repository → Initialize Security Analysis → Build Project,19,5.21
+global,prefix,3,Checkout Repository → Setup Runtime Environment → Build Project,19,5.21
+global,prefix,3,Checkout Repository → Setup Runtime Environment → Manage Build Cache,11,3.01
+global,prefix,3,Checkout Repository → Install Project Dependencies → Setup Runtime Environment,5,1.37
+global,prefix,3,Checkout Repository → Setup Runtime Environment → Run Static Analysis,5,1.37
+global,prefix,3,Checkout Repository → Setup Build Environment → Configure Cloud Resources,4,1.1
+global,prefix,3,Checkout Repository → Setup Runtime Environment → Inspect Runtime Environment,4,1.1
+global,prefix,3,Checkout Repository → Setup Build Environment → Setup Runtime Environment,4,1.1
+global,prefix,3,Checkout Repository → Setup Runtime Environment → Export Environment Configuration,3,0.82
+c++,prefix,3,Checkout Repository → Setup Runtime Environment → Install Project Dependencies,4,5.06
+c++,prefix,3,Checkout Repository → Setup Build Environment → Setup Runtime Environment,4,5.06
+c++,prefix,3,Checkout Repository → Install Project Dependencies → Setup Runtime Environment,2,2.53
+c++,prefix,3,Checkout Repository → Setup Build Environment → Build Source Code,2,2.53
+c++,prefix,3,Checkout Repository → Install Project Dependencies → Run Static Analysis,2,2.53
+c++,prefix,3,Checkout Repository → Setup Build Environment → Build Project,2,2.53
+c++,prefix,3,Checkout Repository → Setup Runtime Environment → Free Disk Space (Ubuntu),1,1.27
+c++,prefix,3,Checkout Repository → Install Project Dependencies → Download External Resources,1,1.27
+c++,prefix,3,Checkout Repository → Build Project → Check metadata,1,1.27
+c++,prefix,3,Checkout Repository → Install Project Dependencies → Run autogen,1,1.27
+java,prefix,3,Checkout Repository → Setup Runtime Environment → Build Project,16,22.22
+java,prefix,3,Checkout Repository → Setup Runtime Environment → Manage Build Cache,7,9.72
+java,prefix,3,Checkout Repository → Initialize Security Analysis → Build Project,2,2.78
+java,prefix,3,Checkout Repository → Setup Runtime Environment → Initialize Security Analysis,2,2.78
+java,prefix,3,Checkout Repository → Verify Build Integrity → Setup Runtime Environment,2,2.78
+java,prefix,3,Checkout Repository → Manage Build Cache → Setup Runtime Environment,2,2.78
+java,prefix,3,Checkout Repository → Download Build Artifacts → Setup Runtime Environment,1,1.39
+java,prefix,3,Checkout Repository → Setup Runtime Environment → Generate cache key,1,1.39
+java,prefix,3,Checkout Repository → Setup Runtime Environment → Configure Secure Access,1,1.39
+java,prefix,3,Setup Runtime Environment → Checkout Repository → Execute Tests,1,1.39
+python,prefix,3,Checkout Repository → Setup Runtime Environment → Install Project Dependencies,79,36.92
+python,prefix,3,Checkout Repository → Initialize Security Analysis → Build Project,17,7.94
+python,prefix,3,Checkout Repository → Setup Runtime Environment → Manage Build Cache,4,1.87
+python,prefix,3,Checkout Repository → Switch Git Reference → Initialize Security Analysis,3,1.4
+python,prefix,3,Checkout Repository → Setup Build Environment → Configure Cloud Resources,3,1.4
+python,prefix,3,Checkout Repository → Build Project → Upload Build Artifacts,3,1.4
+python,prefix,3,Checkout Repository → Initialize Security Analysis → Perform Security Analysis,3,1.4
+python,prefix,3,Checkout Repository → Export Environment Configuration → Setup Runtime Environment,3,1.4
+python,prefix,3,Checkout Repository → Setup Runtime Environment → Inspect Runtime Environment,3,1.4
+python,prefix,3,Checkout Repository → Setup Runtime Environment → Run Static Analysis,3,1.4
+global,suffix,3,Initialize Security Analysis → Build Project → Perform Security Analysis,22,6.03
+global,suffix,3,Checkout Repository → Setup Runtime Environment → Build Project,9,2.47
+global,suffix,3,Setup Runtime Environment → Install Project Dependencies → Execute Tests,6,1.64
+global,suffix,3,Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,6,1.64
+global,suffix,3,Install Project Dependencies → Run Static Analysis → Execute Tests,4,1.1
+global,suffix,3,Install Project Dependencies → Build Project → Upload Build Artifacts,4,1.1
+global,suffix,3,Install Project Dependencies → Build Package → Publish Package,3,0.82
+global,suffix,3,Checkout Repository → Initialize Security Analysis → Perform Security Analysis,3,0.82
+global,suffix,3,Install Project Dependencies → Build Project → Publish Package,3,0.82
+global,suffix,3,Configure Cloud Resources → Generate Version Metadata → Build Project,3,0.82
+c++,suffix,3,Install CUDA ${{ matrix.cuda-version }} → Publish Conda package on organization channel → Publish Conda package on personal channel,1,1.27
+c++,suffix,3,Build Source Code → Build Project → Deploy Documentation,1,1.27
+c++,suffix,3,Setup Runtime Environment → Download Build Artifacts → Publish Package,1,1.27
+c++,suffix,3,Build Project → Build Source Code → Execute Automation Script,1,1.27
+c++,suffix,3,Generate Project Files → Setup Build Environment → Build Project,1,1.27
+c++,suffix,3,Execute Tests → Download Build Artifacts → Install External Tool,1,1.27
+c++,suffix,3,Merge label configuration files → Manage Labels → Sync labels,1,1.27
+c++,suffix,3,Build Source Code → Execute Tests → REUSE Compliance Check,1,1.27
+c++,suffix,3,Download External Resources → Setup Build Environment → Build Source Code,1,1.27
+c++,suffix,3,Checkout Repository → Manage Build Cache → Ros-Industrial/Industrial Ci,1,1.27
+java,suffix,3,Checkout Repository → Setup Runtime Environment → Build Project,8,11.11
+java,suffix,3,Initialize Security Analysis → Build Project → Perform Security Analysis,3,4.17
+java,suffix,3,Setup Runtime Environment → Manage Build Cache → Build Project,2,2.78
+java,suffix,3,Setup Runtime Environment → Build Project → Upload Build Artifacts,2,2.78
+java,suffix,3,Setup Runtime Environment → Build Project → Execute Tests,1,1.39
+java,suffix,3,Manage Build Cache → Download Build Artifacts → Build Project,1,1.39
+java,suffix,3,Build Project → Configure Build Profile → Upload Build Artifacts,1,1.39
+java,suffix,3,Setup prerequisites → Build Container Image → Start Services,1,1.39
+java,suffix,3,Setup Runtime Environment → Build Project → Read errors,1,1.39
+java,suffix,3,Build Project → Run Static Analysis → Verify Build Integrity,1,1.39
+python,suffix,3,Initialize Security Analysis → Build Project → Perform Security Analysis,19,8.88
+python,suffix,3,Setup Runtime Environment → Install Project Dependencies → Execute Tests,6,2.8
+python,suffix,3,Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,6,2.8
+python,suffix,3,Install Project Dependencies → Run Static Analysis → Execute Tests,4,1.87
+python,suffix,3,Install Project Dependencies → Build Package → Publish Package,3,1.4
+python,suffix,3,Checkout Repository → Initialize Security Analysis → Perform Security Analysis,3,1.4
+python,suffix,3,Install Project Dependencies → Build Project → Publish Package,3,1.4
+python,suffix,3,Install Project Dependencies → Build Project → Upload Build Artifacts,3,1.4
+python,suffix,3,Install Project Dependencies → Generate Test Coverage → Upload Coverage,3,1.4
+python,suffix,3,Setup Runtime Environment → Generate Test Coverage → Upload Coverage,2,0.93
+global,prefix,4,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,19,5.21
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,15,4.11
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project,14,3.84
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests,9,2.47
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Generate Test Coverage,5,1.37
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Manage Build Cache,5,1.37
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Documentation,4,1.1
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Package,4,1.1
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Manage Build Cache → Build Project,4,1.1
+global,prefix,4,Checkout Repository → Setup Runtime Environment → Manage Build Cache → Install Project Dependencies,4,1.1
+c++,prefix,4,Checkout Repository → Setup Build Environment → Build Source Code → Execute Tests,2,2.53
+c++,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project,2,2.53
+c++,prefix,4,Checkout Repository → Setup Runtime Environment → Free Disk Space (Ubuntu) → Build Project,1,1.27
+c++,prefix,4,Checkout Repository → Install Project Dependencies → Download External Resources → Build Source Code,1,1.27
+c++,prefix,4,Checkout Repository → Build Project → Check metadata → Upload Build Artifacts,1,1.27
+c++,prefix,4,Checkout Repository → Install Project Dependencies → Run autogen → Configure,1,1.27
+c++,prefix,4,Checkout Repository → Install Project Dependencies → Setup Runtime Environment → Generate Project Files,1,1.27
+c++,prefix,4,Checkout Repository → Get cache key → Manage Build Cache → Install Project Dependencies,1,1.27
+c++,prefix,4,Checkout Repository → Download JSON schema for labels configuration file → Install Project Dependencies → Verify Build Integrity,1,1.27
+c++,prefix,4,Checkout Repository → Run Static Analysis → Setup Runtime Environment → Build Container Image,1,1.27
+java,prefix,4,Checkout Repository → Setup Runtime Environment → Manage Build Cache → Build Project,4,5.56
+java,prefix,4,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,2,2.78
+java,prefix,4,Checkout Repository → Setup Runtime Environment → Build Project → Execute Tests,2,2.78
+java,prefix,4,Checkout Repository → Download Build Artifacts → Setup Runtime Environment → Build Project,1,1.39
+java,prefix,4,Checkout Repository → Setup Runtime Environment → Generate cache key → Manage Build Cache,1,1.39
+java,prefix,4,Checkout Repository → Setup Runtime Environment → Configure Secure Access → Set up Gradle build,1,1.39
+java,prefix,4,Setup Runtime Environment → Checkout Repository → Execute Tests → Capture Test Output,1,1.39
+java,prefix,4,Checkout Repository → Publish Release → Extract latest vanilla sprites → Setup Runtime Environment,1,1.39
+java,prefix,4,Checkout Repository → Setup Runtime Environment → Build Project → Run Static Analysis,1,1.39
+java,prefix,4,Checkout Repository → Setup Runtime Environment → Initialize Security Analysis → Build Project,1,1.39
+python,prefix,4,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,17,7.94
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,15,7.01
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Project,12,5.61
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests,9,4.21
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Generate Test Coverage,5,2.34
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Manage Build Cache,5,2.34
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Documentation,4,1.87
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Build Package,4,1.87
+python,prefix,4,Checkout Repository → Setup Runtime Environment → Manage Build Cache → Install Project Dependencies,4,1.87
+python,prefix,4,Checkout Repository → Export Environment Configuration → Setup Runtime Environment → Install Project Dependencies,3,1.4
+global,suffix,4,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,19,5.21
+global,suffix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests,6,1.64
+global,suffix,4,Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests,4,1.1
+global,suffix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,4,1.1
+global,suffix,4,Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts,4,1.1
+global,suffix,4,Setup Runtime Environment → Install Project Dependencies → Build Package → Publish Package,3,0.82
+global,suffix,4,Checkout Repository → Configure Cloud Resources → Generate Version Metadata → Build Project,3,0.82
+global,suffix,4,Checkout Repository → Setup Runtime Environment → Generate Test Coverage → Upload Coverage,2,0.55
+global,suffix,4,Switch Git Reference → Initialize Security Analysis → Build Project → Perform Security Analysis,2,0.55
+global,suffix,4,Configure Build Profile → Build Static Site → Upload Build Artifacts → Deploy Application,2,0.55
+c++,suffix,4,Build Project → Install CUDA ${{ matrix.cuda-version }} → Publish Conda package on organization channel → Publish Conda package on personal channel,1,1.27
+c++,suffix,4,Download External Resources → Build Source Code → Build Project → Deploy Documentation,1,1.27
+c++,suffix,4,Verify clean directory → Setup Runtime Environment → Download Build Artifacts → Publish Package,1,1.27
+c++,suffix,4,Configure → Build Project → Build Source Code → Execute Automation Script,1,1.27
+c++,suffix,4,Setup Runtime Environment → Generate Project Files → Setup Build Environment → Build Project,1,1.27
+c++,suffix,4,Setup Build Environment → Execute Tests → Download Build Artifacts → Install External Tool,1,1.27
+c++,suffix,4,Clean Project Artifacts → Merge label configuration files → Manage Labels → Sync labels,1,1.27
+c++,suffix,4,Setup Build Environment → Build Source Code → Execute Tests → REUSE Compliance Check,1,1.27
+c++,suffix,4,Export Environment Configuration → Download External Resources → Setup Build Environment → Build Source Code,1,1.27
+c++,suffix,4,Upload Build Artifacts → Install External Tool → Manage Build Cache → Build Documentation,1,1.27
+java,suffix,4,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,2,2.78
+java,suffix,4,Checkout Repository → Setup Runtime Environment → Manage Build Cache → Build Project,2,2.78
+java,suffix,4,Download Build Artifacts → Setup Runtime Environment → Build Project → Execute Tests,1,1.39
+java,suffix,4,Generate cache key → Manage Build Cache → Download Build Artifacts → Build Project,1,1.39
+java,suffix,4,Set up Gradle build → Build Project → Configure Build Profile → Upload Build Artifacts,1,1.39
+java,suffix,4,Inspect Runtime Environment → Setup prerequisites → Build Container Image → Start Services,1,1.39
+java,suffix,4,Extract latest vanilla sprites → Setup Runtime Environment → Build Project → Read errors,1,1.39
+java,suffix,4,Setup Runtime Environment → Build Project → Run Static Analysis → Verify Build Integrity,1,1.39
+java,suffix,4,Setup Runtime Environment → Initialize Security Analysis → Build Project → Perform Security Analysis,1,1.39
+java,suffix,4,Checkout Repository → Setup Runtime Environment → Maven Install → Maven Tests,1,1.39
+python,suffix,4,Checkout Repository → Initialize Security Analysis → Build Project → Perform Security Analysis,17,7.94
+python,suffix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Execute Tests,6,2.8
+python,suffix,4,Setup Runtime Environment → Install Project Dependencies → Run Static Analysis → Execute Tests,4,1.87
+python,suffix,4,Checkout Repository → Setup Runtime Environment → Install Project Dependencies → Run Static Analysis,4,1.87
+python,suffix,4,Setup Runtime Environment → Install Project Dependencies → Build Package → Publish Package,3,1.4
+python,suffix,4,Setup Runtime Environment → Install Project Dependencies → Build Project → Upload Build Artifacts,3,1.4
+python,suffix,4,Checkout Repository → Setup Runtime Environment → Generate Test Coverage → Upload Coverage,2,0.93
+python,suffix,4,Switch Git Reference → Initialize Security Analysis → Build Project → Perform Security Analysis,2,0.93
+python,suffix,4,Configure Build Profile → Build Static Site → Upload Build Artifacts → Deploy Application,2,0.93
+python,suffix,4,Setup Runtime Environment → Install Project Dependencies → Build Project → Publish Package,2,0.93

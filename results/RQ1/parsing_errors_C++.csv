@@ -1,0 +1,31 @@
+file,error
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\aiekick@Lumo\gha_Win_Lumo_With_Base_Plugins.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\aiekick@Lumo\gha_Win_Lumo_With_Base_Plugins.yml"", line 29, column 219"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\fairy-stockfish@Fairy-Stockfish\gha_release.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\fairy-stockfish@Fairy-Stockfish\gha_release.yml"", line 17, column 53"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\google@flutter-desktop-embedding\gha_ci.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\google@flutter-desktop-embedding\gha_ci.yml"", line 1, column 9"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\Oneflow-Inc@oneflow\gha_test.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\Oneflow-Inc@oneflow\gha_test.yml"", line 936, column 188"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\tim-janik@anklang\gha_testing.yml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\tim-janik@anklang\gha_testing.yml"", line 104, column 39"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\falcosecurity@falco\gha_bump-libs.yaml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\falcosecurity@falco\gha_bump-libs.yaml"", line 63, column 45"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\freebayes@freebayes\gha_issue-tracker-bot.yaml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\freebayes@freebayes\gha_issue-tracker-bot.yaml"", line 19, column 35"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\freebayes@freebayes\gha_support-tracker-bot.yaml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\freebayes@freebayes\gha_support-tracker-bot.yaml"", line 20, column 35"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\vcflib@vcflib\gha_issue-tracker-bot.yaml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\vcflib@vcflib\gha_issue-tracker-bot.yaml"", line 19, column 35"
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\vcflib@vcflib\gha_support-tracker-bot.yaml,"YAML error: while scanning for the next token
+found character '\t' that cannot start any token
+  in ""C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\vcflib@vcflib\gha_support-tracker-bot.yaml"", line 20, column 35"

@@ -1,0 +1,24 @@
+file,reason
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\AMReX-Codes@amrex\gha_codeql-config.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\coin-or@CppAD\gha_conda-env.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\HarshCasper@NeoAlgo\gha_Issue-assign.yml,Not a dictionary
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\jbaldwin@libcoro\gha_ci-macos.yml,Not a dictionary
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\jupyter-xeus@cpp-terminal\gha_docs.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\kul-optec@alpaqa\gha_action.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\lagadic@visp\gha_environment_linux.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\lagadic@visp\gha_environment_macos.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\lagadic@visp\gha_environment_windows.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\loco-3d@crocoddyl\gha_conda-env.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\microsoft@GSL\gha_action.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\nackdai@aten\gha_change_docker_file.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\nackdai@aten\gha_change_file_win_ci.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\NVIDIA@cuda-quantum\gha_md_lint_config.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\NVIDIA@cuda-quantum\gha_spellcheck_config.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\oceanbase@oceanbase\gha_action.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\Tencent@Hippy\gha_pr-path-labeler.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\Tencent@Hippy\gha_pr-size-labeler.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\Tencent@puerts\gha_action.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\youneuoy@M2TWEOP-library\gha_action.yml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\ArkScript-lang@Ark\gha_action.yaml,Missing 'jobs' key
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\iMicknl@LoctekMotion_IoT\gha_build-and-publish.yaml,Not a dictionary
+C:\Users\Taherco\Downloads\Edward_EMSE - ReplicationPackage\data\workflows\c++_yml_files\mp-se@gravitymon\gha_pre-commit.yaml,Not a dictionary
